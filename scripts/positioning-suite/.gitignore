@@ -1,0 +1,7 @@
+# Generated fixtures and run outputs — only the scripts and the reference
+# truth snapshot are tracked.
+*.pdf
+*.png
+*.jpg
+docids.json
+detected-fields.json

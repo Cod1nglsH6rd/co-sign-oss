@@ -1,0 +1,479 @@
+{
+  "meta": {
+    "title": "Cô Sign - Trợ Lý Tài Liệu AI",
+    "description": "Trợ lý AI giúp bạn hiểu và điền các mẫu đơn tiếng Anh"
+  },
+  "nav": {
+    "features": "Tính năng",
+    "login": "Đăng nhập",
+    "signup": "Bắt đầu",
+    "dashboard": "Tài liệu của tôi",
+    "logout": "Đăng xuất",
+    "documents": "Tài liệu",
+    "settings": "Cài đặt"
+  },
+  "hero": {
+    "badge": "Trợ Lý Mẫu Đơn AI",
+    "title": "Mọi Mẫu Đơn",
+    "titleHighlight": "Đều Rõ Ràng và An Tâm",
+    "subtitle": "Cô Sign giải thích từng trường, dịch các thuật ngữ khó và hướng dẫn từng bước để điền đơn tự tin.",
+    "ctaSecondary": "Xem ý tưởng",
+    "trustedBy": "Xây dựng cùng cộng đồng và các tổ chức hỗ trợ nhập cư"
+  },
+  "concept": {
+    "title": "Ý Tưởng",
+    "subtitle": "Một trợ lý song ngữ, nhẹ nhàng giúp biến rối rắm thành rõ ràng.",
+    "kicker": "Ý tưởng",
+    "heroTitle": "Rõ ràng, không phải đoán",
+    "heroCopy": "Chúng tôi kết hợp hiểu tài liệu và hướng dẫn nhẹ nhàng để mọi trường đều dễ hiểu.",
+    "guide": {
+      "title": "Giải thích từng trường",
+      "description": "Giải thích ngắn gọn, dễ hiểu ngay cạnh ô nhập."
+    },
+    "translate": {
+      "title": "Dịch có ngữ cảnh",
+      "description": "Không chỉ từ ngữ, mà cả ý nghĩa và mục đích."
+    },
+    "verify": {
+      "title": "Phát hiện lỗi sớm",
+      "description": "Nhắc khi thiếu hoặc điền chưa rõ trước khi nộp."
+    },
+    "export": {
+      "title": "Hoàn tất tự tin",
+      "description": "Xuất tài liệu sạch, sẵn sàng nộp."
+    },
+    "clarity": {
+      "title": "Ưu tiên rõ ràng",
+      "description": "Giảm mơ hồ để biết chính xác cần điền gì."
+    },
+    "confidence": {
+      "title": "Tự tin ngay trong flow",
+      "description": "Luồng hướng dẫn giúp giảm lỗi và bối rối."
+    },
+    "momentum": {
+      "title": "Tiến độ đến cuối",
+      "description": "Hiển thị tiến độ để hoàn thành thật sự."
+    }
+  },
+  "upload": {
+    "title": "Tải Tài Liệu Lên",
+    "description": "Tải mẫu đơn của bạn lên",
+    "phoneHint": "Nhấn để chọn tệp — hoặc chụp ảnh bằng điện thoại",
+    "or": "hoặc",
+    "browse": "Chọn Tệp",
+    "formats": "Hỗ trợ PDF, PNG, JPG đến 20MB",
+    "processing": "Đang xử lý tài liệu của bạn...",
+    "success": "Tải tài liệu thành công!",
+    "error": "Tải lên thất bại. Vui lòng thử lại."
+  },
+  "features": {
+    "title": "Cô Sign Giúp Bạn Như Thế Nào",
+    "subtitle": "Ba bước đơn giản để hiểu và hoàn thành bất kỳ mẫu đơn tiếng Anh nào",
+    "translate": {
+      "title": "Dịch Tức Thì",
+      "description": "Mọi trường đều được dịch tự động sang tiếng Việt với giải thích rõ ràng về thông tin cần điền."
+    },
+    "chat": {
+      "title": "Hỏi Cô Bất Cứ Điều Gì",
+      "description": "Trò chuyện với trợ lý AI để được giúp hiểu các thuật ngữ khó hiểu, yêu cầu, hoặc cách trả lời các câu hỏi cụ thể."
+    },
+    "fill": {
+      "title": "Điền & Xuất",
+      "description": "Điền đơn với sự hướng dẫn, sau đó xuất tài liệu đã hoàn thành dưới dạng PDF sẵn sàng nộp."
+    }
+  },
+  "howItWorks": {
+    "title": "Cách Hoạt Động",
+    "subtitle": "Luồng đơn giản cho người thật điền đơn thật.",
+    "step1": {
+      "title": "Hiểu ngữ cảnh",
+      "description": "Nhận biết loại đơn và nội dung yêu cầu."
+    },
+    "step2": {
+      "title": "Hướng dẫn từng trường",
+      "description": "Mỗi trường đều được dịch và giải thích rõ ràng."
+    },
+    "step3": {
+      "title": "Hoàn tất cùng nhau",
+      "description": "Điền đơn tự tin, ít sai sót hơn."
+    }
+  },
+  "selfHosted": {
+    "title": "Tự vận hành",
+    "body": "Cô Sign là ứng dụng tự lưu trữ, phát hành theo Giấy phép MIT: mỗi tổ chức chạy bản sao riêng trên máy chủ của mình. Nếu bạn vận hành bản sao này, hãy đăng nhập để thiết lập và gửi biểu mẫu.",
+    "cta": "Đăng nhập"
+  },
+  "attention": {
+    "punchline": "Không còn đoán mò. Hoàn thành mẫu đơn tự tin chỉ trong vài phút.",
+    "badges": {
+      "privacy": "Ưu tiên quyền riêng tư",
+      "encrypted": "Lưu trữ mã hóa",
+      "community": "Xây dựng cùng cộng đồng"
+    },
+    "demoTitle": "Xem nhanh trong 15 giây",
+    "demo": {
+      "step1": {
+        "title": "Tải mẫu đơn lên",
+        "description": "Nhận diện loại đơn ngay lập tức."
+      },
+      "step2": {
+        "title": "Hướng dẫn rõ ràng",
+        "description": "Mỗi trường đều được dịch và giải thích."
+      },
+      "step3": {
+        "title": "Hoàn tất và xuất file",
+        "description": "Nộp đơn tự tin, ít sai sót."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Được Hàng Nghìn Người Tin Dùng",
+    "subtitle": "Xem người dùng nói gì"
+  },
+  "cta": {
+    "title": "Sẵn Sàng Hiểu Tài Liệu Của Bạn?",
+    "subtitle": "Tham gia cùng hàng nghìn người dùng tin tưởng Cô Sign để giúp họ xử lý các mẫu đơn tiếng Anh.",
+    "button": "Bắt Đầu Miễn Phí"
+  },
+  "footer": {
+    "description": "Điền biểu mẫu đơn giản, có hướng dẫn cho mọi khách hàng.",
+    "tagline": "Làm cho các mẫu đơn tiếng Anh dễ tiếp cận với mọi người.",
+    "product": "Sản phẩm",
+    "company": "Công ty",
+    "legal": "Pháp lý",
+    "links": {
+      "features": "Tính năng",
+      "about": "Về chúng tôi",
+      "contact": "Liên hệ",
+      "privacy": "Chính sách bảo mật",
+      "terms": "Điều khoản dịch vụ",
+      "cookies": "Chính sách cookie"
+    },
+    "copyright": "© Những người đóng góp cho Cô Sign · Giấy phép MIT"
+  },
+  "legalTemplate": {
+    "title": "Trang này là một bản mẫu",
+    "body": "Trang này đi kèm với Cô Sign, một ứng dụng tự lưu trữ. Người vận hành trang web này phải thay nó bằng nội dung của riêng họ. Cho đến khi đó, trang này không mô tả cách trang web hoạt động hay cách xử lý dữ liệu của bạn."
+  },
+  "dashboard": {
+    "title": "Tài Liệu Của Bạn",
+    "welcome": "Chào mừng trở lại",
+    "upload": "Tải Lên Mới",
+    "empty": {
+      "title": "Chưa có tài liệu",
+      "description": "Tải tài liệu đầu tiên để bắt đầu",
+      "cta": "Tải Tài Liệu"
+    },
+    "document": {
+      "uploaded": "Đã tải lên",
+      "fields": "trường được phát hiện",
+      "status": {
+        "processing": "Đang xử lý",
+        "ready": "Sẵn sàng",
+        "error": "Lỗi",
+        "uploaded": "Đã tải lên",
+        "processed": "Đã xử lý"
+      },
+      "actions": {
+        "view": "Xem",
+        "delete": "Xóa",
+        "download": "Tải xuống"
+      },
+      "downloadFailed": "Không thể tải xuống tài liệu này"
+    },
+    "filter": {
+      "all": "Tất cả",
+      "recent": "Gần đây",
+      "completed": "Đã hoàn thành"
+    },
+    "deleteConfirm": "Xóa {count} tài liệu?",
+    "documentsDeleted": "Đã xóa {count} tài liệu",
+    "deleteFailed": "Xóa thất bại",
+    "unsupportedFileType": "Chỉ hỗ trợ file PDF và hình ảnh",
+    "fileTooLarge": "File phải nhỏ hơn 20MB",
+    "uploading": "Đang tải tài liệu...",
+    "uploadSuccess": "Tải tài liệu thành công!",
+    "uploadFailed": "Tải lên thất bại",
+    "documentDeleted": "Đã xóa tài liệu",
+    "chooseLanguage": "Chọn Ngôn Ngữ Của Bạn",
+    "languageDescription": "Chọn ngôn ngữ để dịch các trường đơn. Bạn có thể thay đổi bất kỳ lúc nào.",
+    "uploadingFile": "Đang tải: {fileName}",
+    "dropToUpload": "Thả vào để tải lên",
+    "selectAll": "Chọn Tất Cả",
+    "deleteSelected": "Xóa ({count})",
+    "searchPlaceholder": "Tìm tài liệu...",
+    "noSearchResults": "Không có tài liệu nào phù hợp",
+    "tryDifferentSearch": "Thử từ khóa khác",
+    "languages": {
+      "en": "Tiếng Anh",
+      "vi": "Tiếng Việt",
+      "es": "Tiếng Tây Ban Nha"
+    },
+    "archived": "Đã lưu trữ",
+    "languageEnglishOnly": "(không dịch)",
+    "preparingWorkspace": "Đang chuẩn bị không gian làm việc…",
+    "uploadHint": "Kéo thả hoặc nhấp — PDF, PNG hoặc JPEG tối đa 20MB"
+  },
+  "viewer": {
+    "fields": "Các Trường Đơn",
+    "chat": "Trò Chuyện Với Cô",
+    "translation": "Bản dịch",
+    "explanation": "Ý nghĩa",
+    "example": "Ví dụ",
+    "fillIn": "Câu trả lời của bạn",
+    "locked": "Mở khóa để xem tất cả các trường",
+    "export": "Xuất Tài Liệu",
+    "download": "Tải Bản Gốc",
+    "documentNotFound": "Không tìm thấy tài liệu",
+    "analyzingDocument": "Đang phân tích tài liệu bằng AI...",
+    "fieldsFound": "Tìm thấy {count} trường!",
+    "ocrFailed": "OCR thất bại: {error}",
+    "saveFieldFailed": "Lưu trường thất bại",
+    "positionsSaved": "Đã lưu vị trí các trường!",
+    "reprocessingPositions": "Đang xử lý lại vị trí trường...",
+    "positionsUpdated": "Đã cập nhật {updated} trong {total} vị trí trường!",
+    "reprocessFailed": "Xử lý lại thất bại: {error}",
+    "exportSuccess": "Đã xuất PDF!",
+    "exportFailed": "Xuất PDF thất bại",
+    "securityWarning": "Vì lý do bảo mật, vui lòng KHÔNG chia sẻ thông tin nhạy cảm như số CCCD, số thẻ tín dụng, mật khẩu, hoặc số tài khoản ngân hàng trong cuộc trò chuyện này.",
+    "statusAnalyzing": "Đang phân tích tài liệu...",
+    "fieldsCompleted": "{filled} trong {total} trường đã hoàn thành",
+    "noFields": "Không phát hiện trường nào",
+    "processingStep0": "Đang tải lên...",
+    "processingStep1": "Đang thu thập ngữ cảnh...",
+    "processingStep2": "Đang lập bản đồ...",
+    "processingStep3": "Đang thêm giải thích...",
+    "processingStep4": "Đang dịch...",
+    "processingMessage0": "Đang thu thập thông tin...",
+    "processingMessage1": "Đang tìm mục đích...",
+    "processingMessage2": "Đang đọc giữa các dòng...",
+    "processingMessage3": "Đang hỏi thần linh...",
+    "processingMessage4": "Đang gỡ rối...",
+    "processingMessage5": "Đang giải mã bí ẩn...",
+    "processingMessage6": "Đang làm cho nó có ý nghĩa...",
+    "processingMessage7": "Đang kết nối các mảnh...",
+    "processingMessage8": "Đang bóc tách từng lớp...",
+    "processingMessage9": "Đang yêu cầu tài liệu...",
+    "processingMessage10": "Đang dạy AI đọc...",
+    "processingMessage11": "Đang đếm các trường...",
+    "processingMessage12": "Gần xong rồi...",
+    "processingMessage13": "Chờ thêm một chút...",
+    "processingMessage14": "Đang xử lý yêu cầu của bạn...",
+    "processingHint": "Nhấn SPACE để chơi Snake ẩn",
+    "funFact0": "Mọi người hoàn thành biểu mẫu nhanh hơn đến 3 lần khi mỗi trường được giải thích rõ ràng.",
+    "funFact1": "Bản dịch rõ ràng giúp giảm sửa đi sửa lại và trao đổi qua lại.",
+    "funFact2": "Ví dụ điền sẵn giúp tránh các lỗi thường gặp trên biểu mẫu chính thức.",
+    "funFact3": "Giải thích có hướng dẫn giúp giảm thiếu chữ ký và trường bị bỏ trống.",
+    "funFact4": "Trích xuất thông minh nghĩa là ít thao tác thủ công hơn và tiết kiệm thời gian.",
+    "funFact5": "Định dạng nhất quán giúp việc rà soát nhanh hơn cho mọi người.",
+    "modeAuto": "Tự động",
+    "modeManual": "Thủ công",
+    "fixPositions": "Sửa Vị Trí",
+    "extractionMethod": {
+      "nativeForm": "Biểu mẫu Gốc",
+      "textLayer": "Lớp Văn bản",
+      "aiDisabled": "AI Tắt",
+      "noFields": "Không Có Trường",
+      "vision": "Thị giác AI",
+      "ready": "Sẵn sàng"
+    },
+    "loadingDocument": "Đang tải tài liệu...",
+    "analyzingTitle": "Đang Phân Tích Tài Liệu",
+    "analyzingDescription": "AI đang đọc tài liệu của bạn và trích xuất các trường biểu mẫu. Thông thường mất 10-20 giây.",
+    "noFieldsDetected": "Không Phát Hiện Trường",
+    "noFieldsDescription": "Tài liệu này có thể không chứa các trường biểu mẫu, hoặc bạn có thể thử quét lại.",
+    "scanFields": "Quét Các Trường",
+    "fieldLabel": "Trường {number}",
+    "saving": "Đang lưu…",
+    "askCoTooltip": "Hỏi Cô về trường này",
+    "exporting": "Đang xuất...",
+    "reconfigurePositions": "Cấu Hình Lại Vị Trí Trường",
+    "remaining": "còn {count}",
+    "translatePromptTitle": "Đọc biểu mẫu này bằng ngôn ngữ khác?",
+    "translatePromptBody": "Chúng tôi sẽ dịch nhãn và giải thích các trường. Tiếng Anh vẫn có sẵn.",
+    "translatePromptSelect": "Chọn ngôn ngữ…",
+    "translatePromptCta": "Dịch",
+    "translatePromptSkip": "Giữ tiếng Anh",
+    "analysisIncompleteTitle": "Phân tích chưa hoàn tất",
+    "analysisIncompleteDescription": "Điều này có thể xảy ra với tài liệu lớn hoặc phức tạp. Hãy thử phân tích lại.",
+    "retryAnalysis": "Thử phân tích lại",
+    "addTextField": "Thêm ô văn bản",
+    "addSignatureField": "Thêm ô chữ ký",
+    "addDateField": "Thêm ô ngày",
+    "manualTextFieldName": "Ô văn bản",
+    "manualSignatureFieldName": "Chữ ký",
+    "manualDateFieldName": "Ngày",
+    "manualFieldAdded": "Đã thêm ô — bạn có thể di chuyển khung của nó trên tài liệu.",
+    "documentTab": "Tài liệu",
+    "toast": {
+      "documentNotFound": "Không tìm thấy tài liệu",
+      "analyzing": "Đang phân tích tài liệu bằng AI...",
+      "stillAnalyzing": "Vẫn đang phân tích — tài liệu này cần thêm một chút thời gian…",
+      "analysisComplete": "Phân tích hoàn tất!",
+      "analysisFailedRetry": "Phân tích thất bại — bạn có thể thử lại bên dưới.",
+      "analysisSlow": "Phân tích lâu hơn dự kiến. Vui lòng quay lại sau vài phút.",
+      "fieldsFound": "Đã tìm thấy {count} ô!",
+      "analysisFailed": "Phân tích thất bại: {error}",
+      "saveFieldFailed": "Không lưu được ô",
+      "positionsSaved": "Đã lưu vị trí các ô!",
+      "reprocessing": "Đang xử lý lại vị trí các ô...",
+      "positionsUpdated": "Đã cập nhật vị trí {updated}/{total} ô!",
+      "reprocessFailed": "Xử lý lại thất bại: {error}",
+      "exportSuccess": "Đã xuất PDF!",
+      "exportFailed": "Không xuất được PDF",
+      "chatFailed": "Không nhận được phản hồi. Vui lòng thử lại.",
+      "addFieldFailed": "Không thêm được ô: {error}",
+      "customFieldsFailed": "Không lưu được ô tùy chỉnh: {error}",
+      "finalizing": "Đang hoàn thiện chi tiết các ô...",
+      "setupComplete": "Thiết lập hoàn tất!",
+      "enrichmentFailed": "Đã lưu thiết lập, nhưng bổ sung chi tiết thất bại"
+    }
+  },
+  "chat": {
+    "placeholder": "Hỏi Cô về tài liệu này...",
+    "send": "Gửi",
+    "greeting": "Xin chào! Tôi là Cô, trợ lý tài liệu của bạn. Tôi có thể giúp gì để bạn hiểu mẫu đơn này?",
+    "thinking": "Đang suy nghĩ...",
+    "errorMessage": "Xin lỗi, tôi không thể trả lời. Vui lòng thử lại.",
+    "consentTitle": "Cho Cô đọc mẫu đơn của bạn?",
+    "consentDescription": "Để trả lời câu hỏi của bạn, Cô cần xem mẫu đơn. Thông tin của bạn luôn được bảo mật và không bao giờ bị lưu trữ hay chia sẻ.",
+    "consentCheckbox": "Vâng, Cô có thể đọc mẫu đơn của tôi để giúp tôi",
+    "consentCancel": "Chưa, cảm ơn",
+    "consentConfirm": "Để Cô giúp",
+    "securityWarning": "Không bao giờ chia sẻ số CCCD, thẻ tín dụng, mật khẩu, hoặc tài khoản ngân hàng",
+    "securityWarningBanner": "Không chia sẻ thông tin nhạy cảm (số CCCD, thẻ tín dụng, mật khẩu, tài khoản ngân hàng)",
+    "askingAbout": "Hỏi về: {fieldName}",
+    "privacyAlert": "⚠️ CẢNH BÁO QUYỀN RIÊNG TƯ: Có vẻ như bạn đã chia sẻ thông tin cá nhân. Vui lòng không chia sẻ chi tiết nhạy cảm ở đây — cuộc trò chuyện này không phải kho an toàn. Chúng tôi ở đây để giúp bạn HIỂU giấy tờ, không phải thu thập dữ liệu của bạn. Đây là những gì bạn đã chia sẻ khiến chúng tôi lo ngại: {category}. Bạn có thể tìm thông tin này ở {suggestion}. Không cần chia sẻ với chúng tôi!"
+  },
+  "setup": {
+    "title": "Cần Cấu Hình",
+    "yourRole": "Vai Trò Của Bạn",
+    "step1of3": "Bước 1 trong 3",
+    "step2of3": "Bước 2 trong 3",
+    "step3of3": "Bước 3 trong 3",
+    "letsSetup": "Thiết lập tài liệu này",
+    "welcomeDescription": "Tài liệu này cần một số cấu hình ban đầu trước khi bạn có thể điền. Chúng tôi sẽ hướng dẫn bạn.",
+    "whatWellDo": "Những gì chúng tôi sẽ làm:",
+    "roleQuestion": "Trả lời câu hỏi nhanh về vai trò của bạn",
+    "dragFields": "Kéo mỗi trường đến vị trí đúng trên tài liệu",
+    "fillInfo": "Điền thông tin của bạn",
+    "getStarted": "Bắt Đầu",
+    "roleQuestionTitle": "Vai trò của bạn trong tài liệu này là gì?",
+    "roleDescription": "Điều này giúp chúng tôi chỉ hiển thị các trường liên quan đến bạn.",
+    "skipRole": "Bỏ qua câu hỏi này",
+    "welcomeMessage": "Chúng tôi sẽ giúp bạn định vị {count} trường trên tài liệu này. Kéo mỗi trường đến vị trí đúng, sau đó điền thông tin của bạn.",
+    "dragInstructions": "Kéo các trường để định vị trên tài liệu. Thay đổi kích thước bằng các nút.",
+    "hideSidebar": "Ẩn Thanh Bên",
+    "showSidebar": "Hiện Thanh Bên",
+    "previous": "Quay Lại",
+    "fieldCounter": "Trường {current} trong {total}",
+    "doneFillFields": "Xong — Điền Trường",
+    "positionFields": "Định Vị Trường",
+    "positionDescription": "Kéo mỗi hộp trường để phủ đúng vùng trên tài liệu.",
+    "noPosition": "Không có vị trí",
+    "currentField": "Trường Hiện Tại ({current}/{total})",
+    "positionHint": "Gợi ý vị trí: {hint}",
+    "returnToSetup": "Quay Lại Cấu Hình",
+    "markReviewed": "Đánh Dấu Đã Xem",
+    "doneButton": "Xong — Điền Trường",
+    "repositionFields": "Điều chỉnh vị trí trường",
+    "positionInstructions": "Kéo các trường để định vị • Nhấn \"Xong\" khi sẵn sàng",
+    "welcome": {
+      "title": "Chào Mừng Đến Với Cấu Hình",
+      "description": "Hãy chuẩn bị tài liệu của bạn. Điều này sẽ chỉ mất một phút."
+    },
+    "roles": {
+      "landlord": "Chủ Nhà",
+      "tenant": "Người Thuê",
+      "employer": "Người Tuyển Dụng",
+      "employee": "Nhân Viên",
+      "disclosing": "Bên Tiết Lộ",
+      "receiving": "Bên Nhận",
+      "buyer": "Người Mua",
+      "seller": "Người Bán",
+      "client": "Khách Hàng/Công ty",
+      "contractor": "Tư vấn/Nhà thầu"
+    },
+    "fieldTypes": {
+      "text": "Văn bản",
+      "date": "Ngày",
+      "email": "Email",
+      "tel": "Điện thoại",
+      "number": "Số",
+      "checkbox": "Hộp kiểm",
+      "signature": "Chữ ký",
+      "address": "Địa chỉ"
+    },
+    "fieldNamePlaceholder": "Tên trường",
+    "searchFields": "Tìm trường…",
+    "add": "Thêm",
+    "cancel": "Hủy"
+  },
+  "signature": {
+    "placeholder": "Vẽ chữ ký của bạn ở đây",
+    "clear": "Xóa",
+    "saved": "Đã lưu chữ ký"
+  },
+  "common": {
+    "loading": "Đang tải...",
+    "error": "Đã xảy ra lỗi",
+    "retry": "Thử Lại",
+    "cancel": "Hủy",
+    "save": "Lưu",
+    "delete": "Xóa",
+    "confirm": "Xác nhận",
+    "back": "Quay lại",
+    "next": "Tiếp theo",
+    "close": "Đóng",
+    "loadingDocument": "Đang tải tài liệu...",
+    "pageOf": "Trang {current} trong {total}"
+  },
+  "auth": {
+    "login": {
+      "title": "Chào mừng trở lại",
+      "subtitle": "Đăng nhập để truy cập tài liệu của bạn",
+      "google": "Tiếp tục với Google",
+      "or": "hoặc",
+      "email": "Địa chỉ email",
+      "password": "Mật khẩu",
+      "submit": "Đăng nhập",
+      "noAccount": "Chưa có tài khoản?",
+      "signup": "Đăng ký",
+      "username": "Tên đăng nhập",
+      "usernamePlaceholder": "Nhập tên đăng nhập",
+      "passwordPlaceholder": "Nhập mật khẩu",
+      "invalidCredentials": "Tên đăng nhập hoặc mật khẩu không đúng",
+      "loginFailed": "Thông tin không hợp lệ",
+      "forgotPassword": "Quên mật khẩu?"
+    },
+    "signup": {
+      "title": "Tạo tài khoản",
+      "subtitle": "Bắt đầu hiểu tài liệu ngay hôm nay",
+      "hasAccount": "Đã có tài khoản?",
+      "login": "Đăng nhập",
+      "submit": "Tạo tài khoản",
+      "confirmSent": "Sắp xong! Hãy kiểm tra email và nhấp vào liên kết xác nhận để kích hoạt tài khoản.",
+      "passwordHint": "Ít nhất 8 ký tự",
+      "confirmPassword": "Xác nhận mật khẩu",
+      "passwordMismatch": "Mật khẩu không khớp"
+    },
+    "testingMode": "Chế Độ Kiểm Tra",
+    "terms": "Điều khoản",
+    "privacyPolicy": "Chính sách bảo mật",
+    "forgot": {
+      "title": "Đặt lại mật khẩu",
+      "subtitle": "Nhập email của bạn và chúng tôi sẽ gửi liên kết đặt lại",
+      "submit": "Gửi liên kết đặt lại",
+      "sent": "Nếu có tài khoản với email đó, liên kết đặt lại đang được gửi đến.",
+      "back": "Quay lại đăng nhập"
+    },
+    "reset": {
+      "title": "Đặt mật khẩu mới",
+      "subtitle": "Chọn mật khẩu mới cho tài khoản của bạn",
+      "newPassword": "Mật khẩu mới",
+      "submit": "Cập nhật mật khẩu",
+      "success": "Đã cập nhật mật khẩu!",
+      "invalid": "Liên kết đặt lại không hợp lệ hoặc đã hết hạn. Vui lòng yêu cầu liên kết mới."
+    }
+  }
+}

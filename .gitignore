@@ -1,0 +1,74 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+
+# Production
+/build
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
+.env
+.env*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel
+.vercel
+
+# Typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Google Cloud credentials
+*service-account*.json
+google-credentials.json
+co-sign-ocr-key.json
+
+# Supabase
+.supabase/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+/tmp
+/temp
+*.log
+.next.stale-*
+
+# Tesseract OCR data (downloaded at runtime)
+*.traineddata
+
+# Local tool state that must never be committed (it carried a project ref and a
+# connection string once): the Supabase CLI's temp folder, a local agent
+# settings file, and Office lock files.
+supabase/.temp/
+.claude/settings.local.json
+~$*
+
+# The owner's saved setup answers (lib/hostSettings.js): may hold API keys, never commit
+.cosign/
+
+# Local files that must never be committed
+scripts/step3b_*_raw.txt

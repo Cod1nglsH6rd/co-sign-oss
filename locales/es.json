@@ -1,0 +1,479 @@
+{
+  "meta": {
+    "title": "Cô Sign - Asistente de Documentos con IA",
+    "description": "Asistente con IA para entender y completar formularios en inglés"
+  },
+  "nav": {
+    "features": "Funciones",
+    "login": "Iniciar Sesión",
+    "signup": "Comenzar",
+    "dashboard": "Mis Documentos",
+    "logout": "Cerrar Sesión",
+    "documents": "Documentos",
+    "settings": "Configuración"
+  },
+  "hero": {
+    "badge": "Copiloto de Formularios con IA",
+    "title": "Haz que Cada Formulario",
+    "titleHighlight": "Sea Simple y Seguro",
+    "subtitle": "Cô Sign explica cada campo, traduce términos confusos y guía paso a paso para completar formularios con confianza.",
+    "ctaSecondary": "Ver la idea",
+    "trustedBy": "Creado con testers comunitarios y defensores de inmigrantes"
+  },
+  "concept": {
+    "title": "El Concepto",
+    "subtitle": "Un copiloto bilingüe y calmado para formularios que convierte la confusión en claridad.",
+    "kicker": "La idea",
+    "heroTitle": "Claridad sin adivinanzas",
+    "heroCopy": "Combinamos comprensión del documento con guía suave para que cada campo tenga sentido.",
+    "guide": {
+      "title": "Explica cada campo",
+      "description": "Explicaciones breves y claras junto a cada entrada."
+    },
+    "translate": {
+      "title": "Traduce con contexto",
+      "description": "No solo palabras, sino significado e intención."
+    },
+    "verify": {
+      "title": "Detecta errores temprano",
+      "description": "Identifica respuestas faltantes o confusas antes de enviar."
+    },
+    "export": {
+      "title": "Termina con confianza",
+      "description": "Exporta documentos limpios y listos para enviar."
+    },
+    "clarity": {
+      "title": "Claridad primero",
+      "description": "Quitamos la ambigüedad para saber qué escribir."
+    },
+    "confidence": {
+      "title": "Confianza integrada",
+      "description": "Un flujo guiado que reduce errores y dudas."
+    },
+    "momentum": {
+      "title": "Impulso hasta el final",
+      "description": "Progreso visible para terminar los formularios."
+    }
+  },
+  "upload": {
+    "title": "Sube Tu Documento",
+    "description": "Sube tu formulario",
+    "phoneHint": "Haz clic para elegir un archivo — o toma una foto con tu teléfono",
+    "or": "o",
+    "browse": "Buscar Archivos",
+    "formats": "Soporta PDF, PNG, JPG hasta 20MB",
+    "processing": "Procesando tu documento...",
+    "success": "¡Documento subido exitosamente!",
+    "error": "Error al subir. Por favor, intenta de nuevo."
+  },
+  "features": {
+    "title": "Cómo Te Ayuda Cô Sign",
+    "subtitle": "Tres simples pasos para entender y completar cualquier formulario en inglés",
+    "translate": {
+      "title": "Traducción Instantánea",
+      "description": "Cada campo se traduce automáticamente a tu idioma con explicaciones claras de la información requerida."
+    },
+    "chat": {
+      "title": "Pregúntale a Cô",
+      "description": "Chatea con nuestro asistente de IA para obtener ayuda con términos confusos, requisitos, o cómo responder preguntas específicas."
+    },
+    "fill": {
+      "title": "Completa y Exporta",
+      "description": "Completa el formulario con orientación, luego exporta tu documento terminado como PDF listo para enviar."
+    }
+  },
+  "howItWorks": {
+    "title": "Cómo Funciona",
+    "subtitle": "Un flujo simple diseñado para personas reales llenando formularios reales.",
+    "step1": {
+      "title": "Obtener contexto",
+      "description": "Entendemos el tipo de formulario y lo que pide."
+    },
+    "step2": {
+      "title": "Guiar cada campo",
+      "description": "Cada entrada se traduce y se explica claramente."
+    },
+    "step3": {
+      "title": "Terminar juntos",
+      "description": "Las personas completan el formulario con confianza."
+    }
+  },
+  "selfHosted": {
+    "title": "Instálalo en tu servidor",
+    "body": "Cô Sign es una aplicación autoalojada, publicada bajo la Licencia MIT: cada organización ejecuta su propia copia en su propio servidor. Si administras esta copia, inicia sesión para configurarla y enviar formularios.",
+    "cta": "Iniciar sesión"
+  },
+  "attention": {
+    "punchline": "Deja de adivinar. Completa formularios con confianza en minutos.",
+    "badges": {
+      "privacy": "Privacidad primero",
+      "encrypted": "Almacenamiento cifrado",
+      "community": "Creado con la comunidad"
+    },
+    "demoTitle": "Míralo en 15 segundos",
+    "demo": {
+      "step1": {
+        "title": "Sube tu formulario",
+        "description": "Detectamos el tipo de formulario al instante."
+      },
+      "step2": {
+        "title": "Guía clara",
+        "description": "Cada campo se traduce y se explica."
+      },
+      "step3": {
+        "title": "Termina y exporta",
+        "description": "Entrega con menos errores."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Miles Confían en Nosotros",
+    "subtitle": "Mira lo que dicen nuestros usuarios"
+  },
+  "cta": {
+    "title": "¿Listo para Entender Tus Documentos?",
+    "subtitle": "Únete a miles de usuarios que confían en Cô Sign para ayudarles con formularios en inglés.",
+    "button": "Comenzar Gratis"
+  },
+  "footer": {
+    "description": "Relleno de formularios simple y guiado para cada cliente.",
+    "tagline": "Haciendo los formularios en inglés accesibles para todos.",
+    "product": "Producto",
+    "company": "Empresa",
+    "legal": "Legal",
+    "links": {
+      "features": "Funciones",
+      "about": "Sobre Nosotros",
+      "contact": "Contacto",
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Servicio",
+      "cookies": "Política de Cookies"
+    },
+    "copyright": "© Colaboradores de Cô Sign · Licencia MIT"
+  },
+  "legalTemplate": {
+    "title": "Esta página es una plantilla",
+    "body": "Viene con Cô Sign, una aplicación autoalojada. Quien gestione este sitio debe sustituirla por su propio texto. Mientras no lo haga, no describe cómo funciona este sitio ni cómo trata tus datos."
+  },
+  "dashboard": {
+    "title": "Tus Documentos",
+    "welcome": "Bienvenido de nuevo",
+    "upload": "Subir Nuevo",
+    "empty": {
+      "title": "Aún no hay documentos",
+      "description": "Sube tu primer documento para comenzar",
+      "cta": "Subir Documento"
+    },
+    "document": {
+      "uploaded": "Subido",
+      "fields": "campos detectados",
+      "status": {
+        "processing": "Procesando",
+        "ready": "Listo",
+        "error": "Error",
+        "uploaded": "Subido",
+        "processed": "Procesado"
+      },
+      "actions": {
+        "view": "Ver",
+        "delete": "Eliminar",
+        "download": "Descargar"
+      },
+      "downloadFailed": "No se pudo descargar este documento"
+    },
+    "filter": {
+      "all": "Todos",
+      "recent": "Recientes",
+      "completed": "Completados"
+    },
+    "deleteConfirm": "¿Eliminar {count} documento(s)?",
+    "documentsDeleted": "{count} documentos eliminados",
+    "deleteFailed": "Error al eliminar documentos",
+    "unsupportedFileType": "Solo se admiten archivos PDF e imágenes",
+    "fileTooLarge": "El archivo debe ser menor a 20MB",
+    "uploading": "Subiendo documento...",
+    "uploadSuccess": "¡Documento subido!",
+    "uploadFailed": "Error al subir",
+    "documentDeleted": "Documento eliminado",
+    "chooseLanguage": "Elige Tu Idioma",
+    "languageDescription": "Selecciona el idioma para traducir los campos del formulario. Puedes cambiar esto en cualquier momento.",
+    "uploadingFile": "Subiendo: {fileName}",
+    "dropToUpload": "Suelta para subir",
+    "selectAll": "Seleccionar Todo",
+    "deleteSelected": "Eliminar ({count})",
+    "searchPlaceholder": "Buscar documentos...",
+    "noSearchResults": "No hay documentos que coincidan con tu búsqueda",
+    "tryDifferentSearch": "Intenta con otro término de búsqueda",
+    "languages": {
+      "en": "Inglés",
+      "vi": "Vietnamita",
+      "es": "Español"
+    },
+    "archived": "Archivados",
+    "languageEnglishOnly": "(sin traducción)",
+    "preparingWorkspace": "Preparando tu espacio de trabajo…",
+    "uploadHint": "Arrastra o haz clic — PDF, PNG o JPEG hasta 20MB"
+  },
+  "viewer": {
+    "fields": "Campos del Formulario",
+    "chat": "Chatea con Cô",
+    "translation": "Traducción",
+    "explanation": "Qué significa",
+    "example": "Ejemplo",
+    "fillIn": "Tu respuesta",
+    "locked": "Desbloquea para ver todos los campos",
+    "export": "Exportar Documento",
+    "download": "Descargar Original",
+    "documentNotFound": "Documento no encontrado",
+    "analyzingDocument": "Analizando documento con IA...",
+    "fieldsFound": "¡Se encontraron {count} campos!",
+    "ocrFailed": "OCR falló: {error}",
+    "saveFieldFailed": "Error al guardar campo",
+    "positionsSaved": "¡Posiciones de campos guardadas!",
+    "reprocessingPositions": "Reprocesando posiciones de campos...",
+    "positionsUpdated": "¡Actualizadas {updated} de {total} posiciones de campos!",
+    "reprocessFailed": "Reprocesamiento falló: {error}",
+    "exportSuccess": "¡PDF exportado!",
+    "exportFailed": "Error al exportar PDF",
+    "securityWarning": "Por seguridad, por favor NO compartas información sensible como SSN, números de tarjetas de crédito, contraseñas o números de cuentas bancarias en este chat.",
+    "statusAnalyzing": "Analizando documento...",
+    "fieldsCompleted": "{filled} de {total} campos completados",
+    "noFields": "No se detectaron campos",
+    "processingStep0": "Subiendo...",
+    "processingStep1": "Recopilando contexto...",
+    "processingStep2": "Mapeando campos...",
+    "processingStep3": "Agregando explicaciones...",
+    "processingStep4": "Traduciendo...",
+    "processingMessage0": "Recopilando información...",
+    "processingMessage1": "Buscando propósito...",
+    "processingMessage2": "Leyendo entre líneas...",
+    "processingMessage3": "Consultando al oráculo...",
+    "processingMessage4": "Desenredando los nudos...",
+    "processingMessage5": "Descifrando misterios...",
+    "processingMessage6": "Haciendo sentido de todo...",
+    "processingMessage7": "Conectando los puntos...",
+    "processingMessage8": "Pelando las capas...",
+    "processingMessage9": "Pidiéndole al documento...",
+    "processingMessage10": "Enseñando a IA a leer...",
+    "processingMessage11": "Contando los campos...",
+    "processingMessage12": "Casi llegamos...",
+    "processingMessage13": "Un momento más...",
+    "processingMessage14": "Procesando tu solicitud...",
+    "processingHint": "Presiona ESPACIO para el juego Snake oculto",
+    "funFact0": "Las personas completan formularios hasta 3 veces más rápido cuando cada campo se explica en lenguaje sencillo.",
+    "funFact1": "Las traducciones claras reducen correcciones y vueltas innecesarias.",
+    "funFact2": "Ejemplos autocompletados ayudan a evitar errores comunes en formularios oficiales.",
+    "funFact3": "Las explicaciones guiadas reducen firmas faltantes y campos vacíos.",
+    "funFact4": "La extracción inteligente significa menos pasos manuales y más tiempo ahorrado.",
+    "funFact5": "El formato consistente acelera las revisiones para todos.",
+    "modeAuto": "Automático",
+    "modeManual": "Manual",
+    "fixPositions": "Corregir Posiciones",
+    "extractionMethod": {
+      "nativeForm": "Formulario Nativo",
+      "textLayer": "Capa de Texto",
+      "aiDisabled": "IA Deshabilitada",
+      "noFields": "Sin Campos",
+      "vision": "Visión IA",
+      "ready": "Listo"
+    },
+    "loadingDocument": "Cargando documento...",
+    "analyzingTitle": "Analizando Documento",
+    "analyzingDescription": "IA está leyendo tu documento y extrayendo los campos del formulario. usualmente toma 10-20 segundos.",
+    "noFieldsDetected": "No Se Detectaron Campos",
+    "noFieldsDescription": "Este documento puede no contener campos de formulario, o puedes intentar escanear de nuevo.",
+    "scanFields": "Escanear Campos",
+    "fieldLabel": "Campo {number}",
+    "saving": "Guardando…",
+    "askCoTooltip": "Preguntar a Cô sobre este campo",
+    "exporting": "Exportando...",
+    "reconfigurePositions": "Reconfigurar Posiciones de Campos",
+    "remaining": "{count} restantes",
+    "translatePromptTitle": "¿Leer este formulario en otro idioma?",
+    "translatePromptBody": "Traduciremos las etiquetas y explicaciones de los campos. El inglés sigue disponible.",
+    "translatePromptSelect": "Elige un idioma…",
+    "translatePromptCta": "Traducir",
+    "translatePromptSkip": "Mantener inglés",
+    "analysisIncompleteTitle": "El análisis no se completó",
+    "analysisIncompleteDescription": "Esto puede ocurrir con documentos grandes o complejos. Inténtalo de nuevo.",
+    "retryAnalysis": "Reintentar análisis",
+    "addTextField": "Agregar campo de texto",
+    "addSignatureField": "Agregar campo de firma",
+    "addDateField": "Agregar campo de fecha",
+    "manualTextFieldName": "Campo de texto",
+    "manualSignatureFieldName": "Firma",
+    "manualDateFieldName": "Fecha",
+    "manualFieldAdded": "Campo agregado: puedes reubicar su casilla en el documento.",
+    "documentTab": "Documento",
+    "toast": {
+      "documentNotFound": "Documento no encontrado",
+      "analyzing": "Analizando el documento con IA...",
+      "stillAnalyzing": "Seguimos analizando: este documento necesita un poco más de tiempo…",
+      "analysisComplete": "¡Análisis completado!",
+      "analysisFailedRetry": "El análisis falló: puedes reintentarlo abajo.",
+      "analysisSlow": "El análisis está tardando más de lo esperado. Vuelve a revisar en unos minutos.",
+      "fieldsFound": "¡Se encontraron {count} campos!",
+      "analysisFailed": "El análisis falló: {error}",
+      "saveFieldFailed": "No se pudo guardar el campo",
+      "positionsSaved": "¡Posiciones de los campos guardadas!",
+      "reprocessing": "Reprocesando las posiciones de los campos...",
+      "positionsUpdated": "¡Se actualizaron {updated}/{total} posiciones de campos!",
+      "reprocessFailed": "El reprocesamiento falló: {error}",
+      "exportSuccess": "¡PDF exportado!",
+      "exportFailed": "No se pudo exportar el PDF",
+      "chatFailed": "No se pudo obtener una respuesta. Inténtalo de nuevo.",
+      "addFieldFailed": "No se pudo agregar el campo: {error}",
+      "customFieldsFailed": "No se pudieron guardar los campos personalizados: {error}",
+      "finalizing": "Finalizando los detalles de los campos...",
+      "setupComplete": "¡Configuración completada!",
+      "enrichmentFailed": "Configuración guardada, pero no se pudieron completar los detalles"
+    }
+  },
+  "chat": {
+    "placeholder": "Pregúntale a Cô sobre este documento...",
+    "send": "Enviar",
+    "greeting": "¡Hola! Soy Cô, tu asistente de documentos. ¿Cómo puedo ayudarte a entender este formulario?",
+    "thinking": "Pensando...",
+    "errorMessage": "Lo siento, no pude obtener una respuesta. Por favor, intenta de nuevo.",
+    "consentTitle": "¿Dejar que Cô lea tu formulario?",
+    "consentDescription": "Para responder tu pregunta, Cô necesita ver tu formulario. Tu información es privada y nunca se almacena ni comparte.",
+    "consentCheckbox": "Sí, Cô puede leer mi formulario para ayudarme",
+    "consentCancel": "Ahora no",
+    "consentConfirm": "Que Cô me ayude",
+    "securityWarning": "Nunca compartas SSN, tarjetas de crédito, contraseñas o cuentas bancarias",
+    "securityWarningBanner": "No compartas información sensible (SSN, tarjetas de crédito, contraseñas, cuentas bancarias)",
+    "askingAbout": "Preguntando sobre: {fieldName}",
+    "privacyAlert": "⚠️ ALERTA DE PRIVACIDAD: Parece que has compartido información personal. Por favor, no compartas detalles sensibles aquí — este chat no es una bóveda segura. Estamos aquí para ayudarte a ENTENDER tus documentos, no para recopilar tus datos. Esto es lo que compartiste que nos preocupó: {category}. Puedes encontrar esta información en {suggestion}. ¡No necesitas compartirla con nosotros!"
+  },
+  "setup": {
+    "title": "Configuración Requerida",
+    "yourRole": "Tu Rol",
+    "step1of3": "Paso 1 de 3",
+    "step2of3": "Paso 2 de 3",
+    "step3of3": "Paso 3 de 3",
+    "letsSetup": "Configuremos este documento",
+    "welcomeDescription": "Este documento necesita una configuración inicial antes de que puedas completarlo. Te guiaremos a través de ello.",
+    "whatWellDo": "Lo que haremos:",
+    "roleQuestion": "Responde una pregunta rápida sobre tu rol",
+    "dragFields": "Arrastra cada campo a la posición correcta en el documento",
+    "fillInfo": "Llena tu información",
+    "getStarted": "Comenzar",
+    "roleQuestionTitle": "¿Cuál es tu rol en este documento?",
+    "roleDescription": "Esto nos ayuda a mostrarte solo los campos relevantes.",
+    "skipRole": "Omitir esta pregunta",
+    "welcomeMessage": "Te ayudaremos a posicionar {count} campos en este documento. Arrastra cada campo a la posición correcta, luego completa tu información.",
+    "dragInstructions": "Arrastra los campos para posicionarlos en el documento. Redimensiona con las manijas.",
+    "hideSidebar": "Ocultar Barra Lateral",
+    "showSidebar": "Mostrar Barra Lateral",
+    "previous": "Anterior",
+    "fieldCounter": "Campo {current} de {total}",
+    "doneFillFields": "Hecho — Llenar Campos",
+    "positionFields": "Posicionar Campos",
+    "positionDescription": "Arrastra cada caja de campo para cubrir el área correcta en el documento.",
+    "noPosition": "Sin posición",
+    "currentField": "Campo Actual ({current}/{total})",
+    "positionHint": "Hint de posición: {hint}",
+    "returnToSetup": "Volver a Configuración",
+    "markReviewed": "Marcar como Revisado",
+    "doneButton": "Hecho — Llenar Campos",
+    "repositionFields": "Ajustar posiciones de campos",
+    "positionInstructions": "Arrastra los campos para posicionarlos • Haz clic en \"Hecho\" cuando estés listo",
+    "welcome": {
+      "title": "Bienvenido a la Configuración",
+      "description": "Preparemos tu documento. Solo tomará un minuto."
+    },
+    "roles": {
+      "landlord": "Propietario",
+      "tenant": "Inquilino",
+      "employer": "Empleador",
+      "employee": "Empleado",
+      "disclosing": "Parte Reveladora",
+      "receiving": "Parte Receptora",
+      "buyer": "Comprador",
+      "seller": "Vendedor",
+      "client": "Cliente/Empresa",
+      "contractor": "Consultor/Contratista"
+    },
+    "fieldTypes": {
+      "text": "Texto",
+      "date": "Fecha",
+      "email": "Correo electrónico",
+      "tel": "Teléfono",
+      "number": "Número",
+      "checkbox": "Casilla",
+      "signature": "Firma",
+      "address": "Dirección"
+    },
+    "fieldNamePlaceholder": "Nombre del campo",
+    "searchFields": "Buscar campos…",
+    "add": "Agregar",
+    "cancel": "Cancelar"
+  },
+  "signature": {
+    "placeholder": "Dibuja tu firma aquí",
+    "clear": "Limpiar",
+    "saved": "Firma guardada"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Algo salió mal",
+    "retry": "Intentar de Nuevo",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "confirm": "Confirmar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "close": "Cerrar",
+    "loadingDocument": "Cargando documento...",
+    "pageOf": "Página {current} de {total}"
+  },
+  "auth": {
+    "login": {
+      "title": "Bienvenido de nuevo",
+      "subtitle": "Inicia sesión para acceder a tus documentos",
+      "google": "Continuar con Google",
+      "or": "o",
+      "email": "Correo electrónico",
+      "password": "Contraseña",
+      "submit": "Iniciar Sesión",
+      "noAccount": "¿No tienes cuenta?",
+      "signup": "Regístrate",
+      "username": "Nombre de usuario",
+      "usernamePlaceholder": "Ingresa nombre de usuario",
+      "passwordPlaceholder": "Ingresa contraseña",
+      "invalidCredentials": "Usuario o contraseña inválidos",
+      "loginFailed": "Credenciales inválidas",
+      "forgotPassword": "¿Olvidaste tu contraseña?"
+    },
+    "signup": {
+      "title": "Crea tu cuenta",
+      "subtitle": "Comienza a entender documentos hoy",
+      "hasAccount": "¿Ya tienes cuenta?",
+      "login": "Iniciar Sesión",
+      "submit": "Crear cuenta",
+      "confirmSent": "¡Casi listo! Revisa tu correo y haz clic en el enlace de confirmación para activar tu cuenta.",
+      "passwordHint": "Mínimo 8 caracteres",
+      "confirmPassword": "Confirmar contraseña",
+      "passwordMismatch": "Las contraseñas no coinciden"
+    },
+    "testingMode": "Modo de Prueba",
+    "terms": "Términos",
+    "privacyPolicy": "Política de Privacidad",
+    "forgot": {
+      "title": "Restablecer tu contraseña",
+      "subtitle": "Ingresa tu correo y te enviaremos un enlace para restablecerla",
+      "submit": "Enviar enlace",
+      "sent": "Si existe una cuenta con ese correo, el enlace está en camino.",
+      "back": "Volver a iniciar sesión"
+    },
+    "reset": {
+      "title": "Establecer nueva contraseña",
+      "subtitle": "Elige una nueva contraseña para tu cuenta",
+      "newPassword": "Nueva contraseña",
+      "submit": "Actualizar contraseña",
+      "success": "¡Contraseña actualizada!",
+      "invalid": "Este enlace no es válido o ha expirado. Solicita uno nuevo."
+    }
+  }
+}

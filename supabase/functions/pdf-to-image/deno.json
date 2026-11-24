@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "mupdf": "npm:mupdf@1.27.0",
+    "base64": "https://deno.land/std@0.224.0/encoding/base64.ts"
+  }
+}

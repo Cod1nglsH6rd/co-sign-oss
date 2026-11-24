@@ -1,0 +1,479 @@
+{
+  "meta": {
+    "title": "Cô Sign - Asistan Dokiman AI",
+    "description": "Asistan ki itilize AI pou ede w konprann ak ranpli fòm an anglè"
+  },
+  "nav": {
+    "features": "Karakteristik",
+    "login": "Konekte",
+    "signup": "Kòmanse",
+    "dashboard": "Tablodbò",
+    "logout": "Dekonekte",
+    "documents": "Dokiman",
+    "settings": "Paramèt"
+  },
+  "hero": {
+    "badge": "Kopilòt Fòm AI",
+    "title": "Fè Chak Fòm",
+    "titleHighlight": "Santi Senp ak San Danje",
+    "subtitle": "Cô Sign esplike chak chan, tradui tèm ki konfizan, epi gide moun etap pa etap pou yo ka fini fòm yo ak konfyans.",
+    "ctaSecondary": "Wè Lide a",
+    "trustedBy": "Bati avèk testè kominote ak defansè imigran"
+  },
+  "concept": {
+    "title": "Konsèp la",
+    "subtitle": "Yon kopilòt fòm kalm, bileng ki transfòme konfizyon an klète.",
+    "kicker": "Lide a",
+    "heroTitle": "Klète san devine",
+    "heroCopy": "Nou konbine konpreyansyon dokiman ak gidaj dous pou chak chan gen sans, menm lè fòm nan pa genyen.",
+    "guide": {
+      "title": "Esplike chak chan",
+      "description": "Eksplikasyon kout, ann lang senp bò kote chak antre."
+    },
+    "translate": {
+      "title": "Tradui avèk kontèks",
+      "description": "Pa sèlman mo, men sans ak entansyon nan lang ou."
+    },
+    "verify": {
+      "title": "Detekte erè bonè",
+      "description": "Wè repons ki manke oswa ki konfizan anvan ou soumèt."
+    },
+    "export": {
+      "title": "Fini ak konfyans",
+      "description": "Ekspòte dokiman pwòp, ki pare pou soumèt."
+    },
+    "clarity": {
+      "title": "Klète anvan tout bagay",
+      "description": "Nou retire anbigwite pou moun konnen egzakteman sa pou yo mete."
+    },
+    "confidence": {
+      "title": "Konfyans bati ladan l",
+      "description": "Yon pwosesis gide ki diminye erè ak doutans."
+    },
+    "momentum": {
+      "title": "Eslan pou rive jiska bout",
+      "description": "Kenbe pwogrè vizib pou fòm yo vrèman fini."
+    }
+  },
+  "upload": {
+    "title": "Telechaje Dokiman Ou",
+    "description": "Telechaje fòm ou an",
+    "phoneHint": "Klike pou chwazi yon fichye — oswa pran yon foto ak telefòn ou",
+    "or": "oswa",
+    "browse": "Navige Fichye",
+    "formats": "Sipòte PDF, PNG, JPG jiska 20MB",
+    "processing": "N ap trete dokiman ou an...",
+    "success": "Dokiman an telechaje avèk siksè!",
+    "error": "Telechajman echwe. Tanpri eseye ankò."
+  },
+  "features": {
+    "title": "Kijan Cô Sign Ede W",
+    "subtitle": "Twa etap senp pou konprann ak ranpli nenpòt fòm an anglè",
+    "translate": {
+      "title": "Tradiksyon Enstantane",
+      "description": "Chak chan tradui otomatikman nan lang ou avèk eksplikasyon klè sou enfòmasyon ki nesesè a."
+    },
+    "chat": {
+      "title": "Mande Cô Nenpòt Bagay",
+      "description": "Pale ak asistan AI nou an pou jwenn èd konprann tèm konfizan, kondisyon, oswa kijan pou reponn kesyon espesifik."
+    },
+    "fill": {
+      "title": "Ranpli ak Ekspòte",
+      "description": "Ranpli fòm nan avèk gidaj, epi ekspòte dokiman ou fini an kòm yon PDF ki pare pou soumèt."
+    }
+  },
+  "howItWorks": {
+    "title": "Kijan Li Fonksyone",
+    "subtitle": "Yon pwosesis senp fèt pou vrè moun k ap ranpli vrè fòm.",
+    "step1": {
+      "title": "Jwenn kontèks",
+      "description": "Nou konprann tip fòm nan ak sa l ap mande."
+    },
+    "step2": {
+      "title": "Gide chak chan",
+      "description": "Chak antre tradui epi eksplike klèman."
+    },
+    "step3": {
+      "title": "Fini ansanm",
+      "description": "Itilizatè yo ranpli fòm nan ak konfyans ak mwens erè."
+    }
+  },
+  "selfHosted": {
+    "title": "Fè l mache sou pwòp sèvè ou",
+    "body": "Cô Sign se yon aplikasyon chak òganizasyon enstale sou pwòp sèvè pa li, ki pibliye anba Lisans MIT. Si se ou ki jere kopi sa a, konekte pou w konfigire l epi voye fòm.",
+    "cta": "Konekte"
+  },
+  "attention": {
+    "punchline": "Sispann devine sou fòm. Fini ak konfyans nan kèk minit.",
+    "badges": {
+      "privacy": "Konfidansyalite anvan tout",
+      "encrypted": "Depo kripte",
+      "community": "Bati pa kominote a"
+    },
+    "demoTitle": "Wè li nan 15 segonn",
+    "demo": {
+      "step1": {
+        "title": "Telechaje fòm ou an",
+        "description": "Nou detekte tip fòm nan enstantanman."
+      },
+      "step2": {
+        "title": "Jwenn gidaj klè",
+        "description": "Chak chan tradui epi eksplike."
+      },
+      "step3": {
+        "title": "Fini epi ekspòte",
+        "description": "Soumèt ak konfyans, ak mwens erè."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Plizyè Milye Moun Fè Nou Konfyans",
+    "subtitle": "Wè sa itilizatè nou yo di"
+  },
+  "cta": {
+    "title": "Pare pou Konprann Dokiman Ou yo?",
+    "subtitle": "Antre nan plizyè milye itilizatè ki fè Cô Sign konfyans pou ede yo navige fòm an anglè.",
+    "button": "Kòmanse Gratis"
+  },
+  "footer": {
+    "description": "Ranpli fòm senp ak gide pou chak kliyan.",
+    "tagline": "Fè fòm an anglè aksesib pou tout moun.",
+    "product": "Pwodwi",
+    "company": "Konpayi",
+    "legal": "Legal",
+    "links": {
+      "features": "Karakteristik",
+      "about": "Sou Nou",
+      "contact": "Kontakte",
+      "privacy": "Règleman sou Konfidansyalite",
+      "terms": "Kondisyon Sèvis",
+      "cookies": "Règleman sou Cookies"
+    },
+    "copyright": "© Kontribitè Cô Sign · Lisans MIT"
+  },
+  "legalTemplate": {
+    "title": "Paj sa a se yon modèl",
+    "body": "Li vini ak Cô Sign, yon aplikasyon chak òganizasyon enstale sou pwòp sèvè pa li. Moun ki jere sit sa a dwe ranplase l ak pwòp tèks pa yo. Toutotan yo pa fè sa, li pa dekri kijan sit sa a mache ni kijan li jere done ou yo."
+  },
+  "dashboard": {
+    "title": "Dokiman Ou yo",
+    "welcome": "Byenveni ankò",
+    "upload": "Telechaje Nouvo",
+    "empty": {
+      "title": "Poko gen dokiman",
+      "description": "Telechaje premye dokiman ou pou kòmanse",
+      "cta": "Telechaje Dokiman"
+    },
+    "document": {
+      "uploaded": "Telechaje",
+      "fields": "chan detekte",
+      "status": {
+        "processing": "N ap trete",
+        "ready": "Pare",
+        "error": "Erè",
+        "uploaded": "Telechaje",
+        "processed": "Trete"
+      },
+      "actions": {
+        "view": "Gade",
+        "delete": "Efase",
+        "download": "Telechaje"
+      },
+      "downloadFailed": "Nou pa t kapab telechaje dokiman sa a"
+    },
+    "filter": {
+      "all": "Tout",
+      "recent": "Resan",
+      "completed": "Konplete"
+    },
+    "deleteConfirm": "Efase {count} dokiman?",
+    "documentsDeleted": "{count} dokiman efase",
+    "deleteFailed": "Echwe pou efase dokiman yo",
+    "unsupportedFileType": "Se sèlman fichye PDF ak imaj ki sipòte",
+    "fileTooLarge": "Fichye a dwe mwens pase 20MB",
+    "uploading": "N ap telechaje dokiman an...",
+    "uploadSuccess": "Dokiman an telechaje!",
+    "uploadFailed": "Telechajman echwe",
+    "documentDeleted": "Dokiman efase",
+    "chooseLanguage": "Chwazi Lang Ou",
+    "languageDescription": "Chwazi nan ki lang pou tradui chan fòm yo. Ou ka chanje sa nenpòt lè.",
+    "uploadingFile": "N ap telechaje: {fileName}",
+    "dropToUpload": "Lage pou telechaje",
+    "selectAll": "Chwazi Tout",
+    "deleteSelected": "Efase ({count})",
+    "searchPlaceholder": "Chèche dokiman...",
+    "noSearchResults": "Pa gen dokiman ki koresponn ak rechèch ou",
+    "tryDifferentSearch": "Eseye yon lòt tèm rechèch",
+    "languages": {
+      "en": "Anglè",
+      "vi": "Vyetnamyen",
+      "es": "Panyòl"
+    },
+    "archived": "Achive",
+    "languageEnglishOnly": "(san tradiksyon)",
+    "preparingWorkspace": "N ap prepare espas travay ou…",
+    "uploadHint": "Trennen oswa klike — PDF, PNG oswa JPEG jiska 20MB"
+  },
+  "viewer": {
+    "fields": "Chan Fòm",
+    "chat": "Pale ak Cô",
+    "translation": "Tradiksyon",
+    "explanation": "Sa sa vle di",
+    "example": "Egzanp",
+    "fillIn": "Repons ou",
+    "locked": "Debloke pou wè tout chan yo",
+    "export": "Ekspòte Dokiman",
+    "download": "Telechaje Orijinal la",
+    "documentNotFound": "Dokiman pa jwenn",
+    "analyzingDocument": "N ap analize dokiman an avèk AI...",
+    "fieldsFound": "Jwenn {count} chan!",
+    "ocrFailed": "OCR echwe: {error}",
+    "saveFieldFailed": "Echwe pou sove chan",
+    "positionsSaved": "Pozisyon chan yo sove!",
+    "reprocessingPositions": "N ap re-trete pozisyon chan yo...",
+    "positionsUpdated": "Mete ajou {updated} sou {total} pozisyon chan!",
+    "reprocessFailed": "Re-tretman echwe: {error}",
+    "exportSuccess": "PDF ekspòte!",
+    "exportFailed": "Echwe pou ekspòte PDF",
+    "securityWarning": "Pou sekirite ou, tanpri PA pataje enfòmasyon sansib tankou SSN, nimewo kat kredi, modpas, oswa detay kont labank nan chat sa a.",
+    "statusAnalyzing": "N ap analize dokiman an...",
+    "fieldsCompleted": "{filled} sou {total} chan konplete",
+    "noFields": "Pa gen chan detekte",
+    "processingStep0": "N ap telechaje...",
+    "processingStep1": "N ap rasanble kontèks...",
+    "processingStep2": "N ap trase l...",
+    "processingStep3": "N ap ajoute eksplikasyon...",
+    "processingStep4": "N ap tradui...",
+    "processingMessage0": "N ap rasanble enfòmasyon...",
+    "processingMessage1": "N ap chèche objektif la...",
+    "processingMessage2": "N ap li ant liy yo...",
+    "processingMessage3": "N ap konsilte zòrak la...",
+    "processingMessage4": "N ap demele nœud yo...",
+    "processingMessage5": "N ap dekode mistè yo...",
+    "processingMessage6": "N ap bay tout sa sans...",
+    "processingMessage7": "N ap konekte pwen yo...",
+    "processingMessage8": "N ap dekale kouch yo...",
+    "processingMessage9": "N ap mande dokiman an byen...",
+    "processingMessage10": "N ap aprann AI a li...",
+    "processingMessage11": "N ap konte chan yo...",
+    "processingMessage12": "Nou prèske rive...",
+    "processingMessage13": "Yon ti moman ankò...",
+    "processingMessage14": "N ap trete demann ou...",
+    "processingHint": "Peze ESPAS pou jwèt Sèpan ki kache a",
+    "funFact0": "Moun fini fòm yo jiska 3 fwa pi vit lè chak chan eksplike ann lang senp.",
+    "funFact1": "Tradiksyon klè diminye repetisyon ak ale-vini ak biwo ak mèt kay.",
+    "funFact2": "Egzanp ki ranpli otomatikman ede itilizatè evite erè komen sou fòm ofisyèl.",
+    "funFact3": "Eksplikasyon chan ki gide diminye siyati ki manke ak chan vid.",
+    "funFact4": "Ekstraksyon entelijan vle di mwens etap manyèl ak plis tan sove.",
+    "funFact5": "Fòma konsistan fè revizyon yo pi rapid pou tout moun ki enplike.",
+    "modeAuto": "Otomatik",
+    "modeManual": "Manyèl",
+    "fixPositions": "Korije Pozisyon",
+    "extractionMethod": {
+      "nativeForm": "Fòm Natif",
+      "textLayer": "Kouch Tèks",
+      "aiDisabled": "AI Dezaktive",
+      "noFields": "Pa Gen Chan",
+      "vision": "Vizyon AI",
+      "ready": "Pare"
+    },
+    "loadingDocument": "N ap chaje dokiman an...",
+    "analyzingTitle": "N ap Analize Dokiman",
+    "analyzingDescription": "AI a ap li dokiman ou epi ekstrè chan fòm yo. Sa anjeneral pran 10-20 segonn.",
+    "noFieldsDetected": "Pa Gen Chan Detekte",
+    "noFieldsDescription": "Dokiman sa a ka pa gen chan fòm, oswa ou ka eseye eskane ankò.",
+    "scanFields": "Eskane pou Chan",
+    "fieldLabel": "Chan {number}",
+    "saving": "N ap anrejistre…",
+    "askCoTooltip": "Mande Co sou chan sa a",
+    "exporting": "N ap ekspòte...",
+    "reconfigurePositions": "Rekonfigire Pozisyon Chan yo",
+    "remaining": "{count} ki rete",
+    "translatePromptTitle": "Li fòm sa a nan yon lòt lang?",
+    "translatePromptBody": "N ap tradui etikèt ak eksplikasyon chan yo. Angle rete disponib.",
+    "translatePromptSelect": "Chwazi yon lang…",
+    "translatePromptCta": "Tradui",
+    "translatePromptSkip": "Kenbe angle",
+    "analysisIncompleteTitle": "Analiz la pa fini",
+    "analysisIncompleteDescription": "Sa ka rive ak gwo dokiman oswa konplèks. Eseye analize l ankò.",
+    "retryAnalysis": "Reeseye analiz la",
+    "addTextField": "Ajoute yon chan tèks",
+    "addSignatureField": "Ajoute yon chan siyati",
+    "addDateField": "Ajoute yon chan dat",
+    "manualTextFieldName": "Chan tèks",
+    "manualSignatureFieldName": "Siyati",
+    "manualDateFieldName": "Dat",
+    "manualFieldAdded": "Chan an ajoute — ou ka deplase bwat li a sou dokiman an.",
+    "documentTab": "Dokiman",
+    "toast": {
+      "documentNotFound": "Nou pa jwenn dokiman an",
+      "analyzing": "N ap analize dokiman an ak AI...",
+      "stillAnalyzing": "N ap toujou analize — dokiman sa a bezwen yon ti tan anplis…",
+      "analysisComplete": "Analiz la fini!",
+      "analysisFailedRetry": "Analiz la echwe — ou ka eseye ankò anba a.",
+      "analysisSlow": "Analiz la ap pran plis tan pase sa nou te prevwa. Tanpri tounen nan kèk minit.",
+      "fieldsFound": "Nou jwenn {count} chan!",
+      "analysisFailed": "Analiz la echwe: {error}",
+      "saveFieldFailed": "Nou pa t ka anrejistre chan an",
+      "positionsSaved": "Pozisyon chan yo anrejistre!",
+      "reprocessing": "N ap retravay pozisyon chan yo...",
+      "positionsUpdated": "Nou mete ajou {updated}/{total} pozisyon chan!",
+      "reprocessFailed": "Retravay la echwe: {error}",
+      "exportSuccess": "PDF la ekspòte!",
+      "exportFailed": "Nou pa t ka ekspòte PDF la",
+      "chatFailed": "Nou pa t ka jwenn yon repons. Tanpri eseye ankò.",
+      "addFieldFailed": "Nou pa t ka ajoute chan an: {error}",
+      "customFieldsFailed": "Nou pa t ka anrejistre chan pèsonalize yo: {error}",
+      "finalizing": "N ap fini detay chan yo...",
+      "setupComplete": "Konfigirasyon an fini!",
+      "enrichmentFailed": "Konfigirasyon an anrejistre, men nou pa t ka ajoute detay yo"
+    }
+  },
+  "chat": {
+    "placeholder": "Mande Cô sou dokiman sa a...",
+    "send": "Voye",
+    "greeting": "Bonjou! Mwen se Cô, asistan dokiman ou. Kijan mwen ka ede w konprann fòm sa a?",
+    "thinking": "N ap reflechi...",
+    "errorMessage": "Padon, mwen pa t ka jwenn yon repons. Tanpri eseye ankò.",
+    "consentTitle": "Kite Cô li fòm ou an?",
+    "consentDescription": "Pou reponn kesyon ou, Cô bezwen gade fòm ou an. Enfòmasyon ou rete prive epi yo pa janm sere oswa pataje.",
+    "consentCheckbox": "Wi, Cô ka li fòm mwen an pou ede mwen",
+    "consentCancel": "Pa kounye a",
+    "consentConfirm": "Kite Cô ede",
+    "securityWarning": "Pa janm pataje SSN, kat kredi, modpas, oswa kont labank",
+    "securityWarningBanner": "Pa pataje enfòmasyon sansib (SSN, kat kredi, modpas, kont labank)",
+    "askingAbout": "N ap mande sou: {fieldName}",
+    "privacyAlert": "⚠️ AVÈTISMAN KONFIDANSYALITE: Sanble ou ka te pataje enfòmasyon pèsonèl. Tanpri pa pataje detay sansib isit la — chat sa a se pa yon kòf-fò ki an sekirite. Nou la pou ede w KONPRANN dokiman ou yo, pa pou kolekte done ou. Men sa ou te pataje ki te enkyete nou: {category}. Ou ka jwenn enfòmasyon sa a sou {suggestion}. Pa gen bezwen pataje l avèk nou!"
+  },
+  "setup": {
+    "title": "Konfigirasyon Nesesè",
+    "yourRole": "Wòl Ou",
+    "step1of3": "Etap 1 sou 3",
+    "step2of3": "Etap 2 sou 3",
+    "step3of3": "Etap 3 sou 3",
+    "letsSetup": "Ann konfigire dokiman sa a",
+    "welcomeDescription": "Dokiman sa a bezwen kèk konfigirasyon inisyal anvan ou ka ranpli l. N ap gide w ladan l.",
+    "whatWellDo": "Sa n ap fè:",
+    "roleQuestion": "Reponn yon kesyon rapid sou wòl ou",
+    "dragFields": "Trennen chak chan nan bon pozisyon sou dokiman an",
+    "fillInfo": "Ranpli enfòmasyon ou",
+    "getStarted": "Kòmanse",
+    "roleQuestionTitle": "Ki wòl ou nan dokiman sa a?",
+    "roleDescription": "Sa ede nou montre w sèlman chan ki enpòtan yo.",
+    "skipRole": "Sote kesyon sa a",
+    "welcomeMessage": "N ap ede w pozisyone {count} chan sou dokiman sa a. Trennen chak chan nan bon pozisyon, epi ranpli enfòmasyon ou.",
+    "dragInstructions": "Trennen chan yo pou pozisyone yo sou dokiman an. Chanje gwosè avèk manch yo.",
+    "hideSidebar": "Kache Ba Lateral",
+    "showSidebar": "Montre Ba Lateral",
+    "previous": "Anvan",
+    "fieldCounter": "Chan {current} sou {total}",
+    "doneFillFields": "Fini — Ranpli Chan",
+    "positionFields": "Pozisyone Chan",
+    "positionDescription": "Trennen chak bwat chan pou kouvri bon zòn nan sou dokiman an.",
+    "noPosition": "Pa gen pozisyon",
+    "currentField": "Chan Aktyèl ({current}/{total})",
+    "positionHint": "Endis pozisyon: {hint}",
+    "returnToSetup": "Retounen nan Konfigirasyon",
+    "markReviewed": "Make kòm Revize",
+    "doneButton": "Fini — Ranpli Chan",
+    "repositionFields": "Ajiste pozisyon chan yo",
+    "positionInstructions": "Trennen chan yo pou pozisyone yo • Klike \"Fini\" lè ou pare",
+    "welcome": {
+      "title": "Byenveni nan Konfigirasyon",
+      "description": "Ann prepare dokiman ou. Sa ap pran sèlman yon minit."
+    },
+    "roles": {
+      "landlord": "Mèt Kay",
+      "tenant": "Lokatè",
+      "employer": "Anplwayè",
+      "employee": "Anplwaye",
+      "disclosing": "Pati k ap Divilge",
+      "receiving": "Pati k ap Resevwa",
+      "buyer": "Achtè",
+      "seller": "Vandè",
+      "client": "Kliyan/Konpayi",
+      "contractor": "Konsiltan/Antreprenè"
+    },
+    "fieldTypes": {
+      "text": "Tèks",
+      "date": "Dat",
+      "email": "Imèl",
+      "tel": "Telefòn",
+      "number": "Nimewo",
+      "checkbox": "Kazye",
+      "signature": "Siyati",
+      "address": "Adrès"
+    },
+    "fieldNamePlaceholder": "Non chan",
+    "searchFields": "Chèche chan…",
+    "add": "Ajoute",
+    "cancel": "Anile"
+  },
+  "signature": {
+    "placeholder": "Trase siyati ou la",
+    "clear": "Efase",
+    "saved": "Siyati sove"
+  },
+  "common": {
+    "loading": "N ap chaje...",
+    "error": "Yon bagay pa mache",
+    "retry": "Eseye Ankò",
+    "cancel": "Anile",
+    "save": "Sove",
+    "delete": "Efase",
+    "confirm": "Konfime",
+    "back": "Tounen",
+    "next": "Pwochen",
+    "close": "Fèmen",
+    "loadingDocument": "N ap chaje dokiman an...",
+    "pageOf": "Paj {current} sou {total}"
+  },
+  "auth": {
+    "login": {
+      "title": "Byenveni ankò",
+      "subtitle": "Konekte pou aksede dokiman ou yo",
+      "google": "Kontinye ak Google",
+      "or": "oswa",
+      "email": "Adrès imèl",
+      "password": "Modpas",
+      "submit": "Konekte",
+      "noAccount": "Ou pa gen yon kont?",
+      "signup": "Enskri",
+      "username": "Non itilizatè",
+      "usernamePlaceholder": "Antre non itilizatè",
+      "passwordPlaceholder": "Antre modpas",
+      "invalidCredentials": "Non itilizatè oswa modpas pa valab",
+      "loginFailed": "Enfòmasyon ki pa valab",
+      "forgotPassword": "Ou bliye modpas ou?"
+    },
+    "signup": {
+      "title": "Kreye kont ou",
+      "subtitle": "Kòmanse konprann dokiman jodi a",
+      "hasAccount": "Ou deja gen yon kont?",
+      "login": "Konekte",
+      "submit": "Kreye yon kont",
+      "confirmSent": "Prèske fini! Tcheke imèl ou epi klike sou lyen konfimasyon an pou aktive kont ou.",
+      "passwordHint": "Omwen 8 karaktè",
+      "confirmPassword": "Konfime modpas la",
+      "passwordMismatch": "Modpas yo pa menm"
+    },
+    "testingMode": "Mòd Tès",
+    "terms": "Kondisyon",
+    "privacyPolicy": "Règleman sou Konfidansyalite",
+    "forgot": {
+      "title": "Reyajiste modpas ou",
+      "subtitle": "Antre imèl ou epi n ap voye yon lyen pou reyajiste li",
+      "submit": "Voye lyen an",
+      "sent": "Si gen yon kont pou imèl sa a, lyen an ap rive talè.",
+      "back": "Tounen nan koneksyon"
+    },
+    "reset": {
+      "title": "Mete yon nouvo modpas",
+      "subtitle": "Chwazi yon nouvo modpas pou kont ou",
+      "newPassword": "Nouvo modpas",
+      "submit": "Mete modpas la ajou",
+      "success": "Modpas la mete ajou!",
+      "invalid": "Lyen sa a pa valab oswa li ekspire. Tanpri mande yon lòt."
+    }
+  }
+}

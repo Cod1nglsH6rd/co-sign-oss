@@ -1,0 +1,23 @@
+{
+  "assets": [
+    { "path": "public/fonts/NotoSans-Regular.ttf", "license": "OFL-1.1", "source": "Google Noto (Noto Sans); embedded in signed PDFs, with OFL.txt alongside." },
+    { "path": "public/fonts/OFL.txt", "license": "OFL-1.1", "source": "SIL Open Font License 1.1 text for Noto Sans, shipped with the font as the licence requires." },
+    { "path": "public/pdf.worker.min.mjs", "license": "Apache-2.0", "source": "Mozilla pdf.js worker, vendored from pdfjs-dist; licence notice kept in the file header." },
+    { "path": "public/mascot/approve.png", "license": "Original Cô Sign artwork", "source": "Original artwork made for the Cô Sign project." },
+    { "path": "public/mascot/checklist.png", "license": "Original Cô Sign artwork", "source": "Original artwork made for the Cô Sign project." },
+    { "path": "public/mascot/comparing.png", "license": "Original Cô Sign artwork", "source": "Original artwork made for the Cô Sign project." },
+    { "path": "public/mascot/image.png", "license": "Original Cô Sign artwork", "source": "Original artwork made for the Cô Sign project." },
+    { "path": "public/mascot/mascot with hat.png", "license": "Original Cô Sign artwork", "source": "Original artwork made for the Cô Sign project." },
+    { "path": "public/mascot/mascot.png", "license": "Original Cô Sign artwork", "source": "Original artwork made for the Cô Sign project." },
+    { "path": "public/mascot/reading.png", "license": "Original Cô Sign artwork", "source": "Original artwork made for the Cô Sign project." },
+    { "path": "public/mascot/signiture.png", "license": "Original Cô Sign artwork", "source": "Original artwork made for the Cô Sign project." },
+    { "path": "public/logo/cosign-logo.png", "license": "Original Cô Sign artwork", "source": "Original artwork made for the Cô Sign project." },
+    { "path": "public/favicon.ico", "license": "Original Cô Sign artwork", "source": "Original artwork made for the Cô Sign project." },
+    { "path": "public/embed-sdk.js", "license": "Project's own (see LICENSE)", "source": "Written for Cô Sign." },
+    { "path": "public/locales/*.json", "license": "Project's own (see LICENSE)", "source": "Cô Sign's own translations." }
+  ],
+  "notes": [
+    "Web fonts loaded from Google Fonts and not bundled: Fraunces, Plus Jakarta Sans, Noto Sans SC, Noto Sans TC and Noto Sans Devanagari (pages/_document.js and styles/globals.css). All are OFL-1.1.",
+    "Icons come only from react-icons/fi (Feather, MIT); no paid icon pack is used."
+  ]
+}

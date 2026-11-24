@@ -1,0 +1,83 @@
+{
+  "name": "co-sign",
+  "version": "1.0.0",
+  "description": "Self-hosted e-signing app: upload a PDF or a photo of a form, have its fields found, send signing links in nine languages, and get the signed PDF back",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "predev": "node scripts/sync-locales.js",
+    "dev": "next dev",
+    "prebuild": "node scripts/sync-locales.js",
+    "build": "next build",
+    "start": "next start",
+    "sync:locales": "node scripts/sync-locales.js",
+    "lint": "next lint",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "seed:dev": "node scripts/seed-dev.js",
+    "db:migrate": "node scripts/db/migrate.js",
+    "scan:private": "node scripts/privacy-scan/scan.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.78.0",
+    "@dnd-kit/core": "^6.3.1",
+    "@dnd-kit/utilities": "^3.2.2",
+    "@pdf-lib/fontkit": "^1.1.1",
+    "@sentry/nextjs": "^10.75.2",
+    "@supabase/supabase-js": "^2.39.3",
+    "@upstash/ratelimit": "^1.2.1",
+    "@upstash/redis": "^1.37.0",
+    "date-fns": "^3.0.6",
+    "next": "^15.5.29",
+    "next-intl": "^4.13.0",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^5.5.207",
+    "pg": "^8.23.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.0.1",
+    "react-pdf": "^10.4.1",
+    "tesseract.js": "^7.0.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.11",
+    "@tailwindcss/typography": "^0.5.19",
+    "@testing-library/jest-dom": "^6.1.5",
+    "@testing-library/react": "^14.1.2",
+    "@types/node": "^20.10.6",
+    "@types/react": "^18.2.46",
+    "@types/react-dom": "^18.2.18",
+    "autoprefixer": "^10.4.16",
+    "dotenv": "^16.4.5",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^15.5.13",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^30.3.0",
+    "node-mocks-http": "^1.17.2",
+    "playwright": "^1.58.2",
+    "postcss": "^8.5.10",
+    "tailwindcss": "^3.4.0"
+  },
+  "overrides": {
+    "postcss": "$postcss"
+  },
+  "engines": {
+    "node": ">=20.19"
+  },
+  "keywords": [
+    "e-signature",
+    "esign",
+    "self-hosted",
+    "pdf",
+    "forms",
+    "signing-links",
+    "multilingual",
+    "vietnamese",
+    "nextjs",
+    "supabase"
+  ],
+  "author": "Cô Sign contributors"
+}

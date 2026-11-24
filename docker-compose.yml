@@ -1,0 +1,265 @@
+# Cô Sign on one machine: `docker compose up` brings up the app, its own
+# database, the local auth, data and storage APIs, and the gateway in front.
+# No .env file is needed: every ${VAR} below has a default.
+#
+# Only the gateway publishes a port (COSIGN_PORT, default 3000), on this
+# machine's loopback address unless COSIGN_BIND says otherwise (see gateway);
+# the database and the inner services are reached only on the stack's own network.
+# Keys and the database password are made on first boot (keys service) and
+# kept on the keys volume; no password is written in this file.
+# The database, uploaded files, keys and saved settings live on named volumes, which
+# `docker compose down` keeps; `docker compose down -v` deletes them.
+
+services:
+  # One-shot: makes the signing secret, the anon/service keys and the
+  # database password once, and on every start writes the database address
+  # the other services read from that password (db.env, rest_db_uri).
+  # The files are handed to uid 1000, the user the app, auth and rest run as;
+  # storage, migrate and the database's entrypoint run as root.
+  keys:
+    image: node:20-bookworm-slim
+    volumes:
+      - keys:/keys
+      - ./scripts/docker:/scripts:ro
+    command:
+      - sh
+      - -c
+      - |
+        set -eu
+        node /scripts/gen-keys.js /keys
+        . /keys/supabase.env
+        (umask 077; printf '%s' "$$JWT_SECRET" > /keys/jwt_secret)
+        chown 1000:1000 /keys/supabase.env /keys/jwt_secret /keys/db_password /keys/db.env /keys/rest_db_uri
+    restart: "no"
+
+  db:
+    image: supabase/postgres:15.8.1.060
+    environment:
+      # The password the keys service made, read on the database's first
+      # start only: an existing database keeps the one it was made with.
+      POSTGRES_PASSWORD_FILE: /keys/db_password
+      POSTGRES_HOST: /var/run/postgresql
+      POSTGRES_DB: postgres
+    volumes:
+      - db-data:/var/lib/postgresql/data
+      - keys:/keys:ro
+    depends_on:
+      keys:
+        condition: service_completed_successfully
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "postgres", "-h", "localhost"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    restart: unless-stopped
+
+  # One-shot: SUPABASE-SETUP.sql, then supabase/migrations (scripts/db/migrate.js).
+  # Waits for auth and storage too: the migrations use columns their own
+  # schema migrations add (storage.buckets.file_size_limit, for one).
+  migrate:
+    build:
+      context: .
+      target: build
+    # DATABASE_URL comes from the keys volume. The entrypoint runs whatever
+    # command it is given, so `docker compose run migrate node <script>` gets it too.
+    entrypoint:
+      - sh
+      - -c
+      - . /keys/db.env && export DATABASE_URL && exec "$$@"
+      - sh
+    command: ["node", "scripts/db/migrate.js"]
+    volumes:
+      - keys:/keys:ro
+    depends_on:
+      db:
+        condition: service_healthy
+      keys:
+        condition: service_completed_successfully
+      auth:
+        condition: service_healthy
+      storage:
+        condition: service_healthy
+    restart: "no"
+
+  auth:
+    image: supabase/gotrue:v2.170.0
+    user: "1000:1000"
+    volumes:
+      - keys:/keys:ro
+    entrypoint:
+      - sh
+      - -c
+      - . /keys/supabase.env && . /keys/db.env && export GOTRUE_JWT_SECRET="$$JWT_SECRET" GOTRUE_DB_DATABASE_URL="$$DATABASE_URL?search_path=auth" && if [ "$$COSIGN_ALLOW_SIGNUP" = true ]; then export GOTRUE_DISABLE_SIGNUP=false; else export GOTRUE_DISABLE_SIGNUP=true; fi && site="$${COSIGN_SITE_URL:-http://localhost:$$COSIGN_PORT}" && site="$${site%/}" && export API_EXTERNAL_URL="$$site/auth/v1" GOTRUE_SITE_URL="$$site" GOTRUE_URI_ALLOW_LIST="$$site/**" && exec auth
+    environment:
+      GOTRUE_API_HOST: 0.0.0.0
+      GOTRUE_API_PORT: "9999"
+      GOTRUE_DB_DRIVER: postgres
+      # COSIGN_SITE_URL is the address people open the app at, scheme, host and
+      # port, nothing after them: https://sign.example.com behind your own HTTPS
+      # proxy, or http://<this machine's LAN name or IP>:<COSIGN_PORT> with
+      # COSIGN_BIND=0.0.0.0. Not set, it is http://localhost:<COSIGN_PORT>. The
+      # entrypoint above builds the auth service's addresses from it (a trailing
+      # slash dropped): API_EXTERNAL_URL <site>/auth/v1, where every link the
+      # auth service makes points (the invite link the owner copies, for one),
+      # and GOTRUE_SITE_URL <site> with GOTRUE_URI_ALLOW_LIST <site>/**, the
+      # addresses it may send a person back to. The app gets the same address
+      # as NEXT_PUBLIC_APP_URL (see app), so the invite's return address and
+      # signing links agree with it. When it is set it wins over the Site
+      # address saved at /setup (that field then shows 'Set on the host'). Not
+      # set, the app keeps the saved Site address, but this service does not
+      # read it: with only a saved address, invite links still open at
+      # localhost. Opening the app to other machines? Set this.
+      COSIGN_SITE_URL: ${COSIGN_SITE_URL:-}
+      COSIGN_PORT: ${COSIGN_PORT:-3000}
+      # Sign-up is off. The entrypoint above sets GOTRUE_DISABLE_SIGNUP=false
+      # only when you set COSIGN_ALLOW_SIGNUP=true. Turning it on means anyone
+      # who can reach the port can create a confirmed account (no mail checks
+      # the email) and use the owner's AI key for OCR and chat. Leave it off:
+      # the first admin is made with the setup code, and the owner adds people
+      # through the admin screen instead.
+      COSIGN_ALLOW_SIGNUP: ${COSIGN_ALLOW_SIGNUP:-false}
+      GOTRUE_JWT_ADMIN_ROLES: service_role
+      GOTRUE_JWT_AUD: authenticated
+      GOTRUE_JWT_DEFAULT_GROUP_NAME: authenticated
+      GOTRUE_JWT_EXP: "3600"
+      GOTRUE_EXTERNAL_EMAIL_ENABLED: "true"
+      # No SMTP: new accounts are confirmed at once and no mail is sent.
+      GOTRUE_MAILER_AUTOCONFIRM: "true"
+      # The path of every link the auth service makes (the invite link the
+      # owner copies, the new sign-in link, resets, confirmations). It replaces
+      # the path of API_EXTERNAL_URL, so without the /auth/v1 the link opened
+      # <site>/verify, which the gateway sends to the app, not to this service.
+      GOTRUE_MAILER_URLPATHS_INVITE: /auth/v1/verify
+      GOTRUE_MAILER_URLPATHS_RECOVERY: /auth/v1/verify
+      GOTRUE_MAILER_URLPATHS_CONFIRMATION: /auth/v1/verify
+      GOTRUE_MAILER_URLPATHS_EMAIL_CHANGE: /auth/v1/verify
+      GOTRUE_EXTERNAL_PHONE_ENABLED: "false"
+    depends_on:
+      db:
+        condition: service_healthy
+      keys:
+        condition: service_completed_successfully
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:9999/health"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    restart: unless-stopped
+
+  rest:
+    image: postgrest/postgrest:v13.0.0
+    user: "1000:1000"
+    volumes:
+      - keys:/keys:ro
+    environment:
+      # @file, as for the secret below: the image has no shell to build it in.
+      PGRST_DB_URI: "@/keys/rest_db_uri"
+      PGRST_DB_SCHEMAS: public,storage,graphql_public
+      PGRST_DB_ANON_ROLE: anon
+      # @file: PostgREST reads the secret from the keys volume.
+      PGRST_JWT_SECRET: "@/keys/jwt_secret"
+      PGRST_DB_USE_LEGACY_GUCS: "false"
+      PGRST_ADMIN_SERVER_PORT: "3001"
+    depends_on:
+      db:
+        condition: service_healthy
+      keys:
+        condition: service_completed_successfully
+    # No check: PostgREST v13 has no --ready option and the image has no shell, wget or curl.
+    healthcheck:
+      disable: true
+    restart: unless-stopped
+
+  storage:
+    image: supabase/storage-api:v1.11.13
+    volumes:
+      - keys:/keys:ro
+      - storage-data:/var/lib/storage
+    entrypoint:
+      - sh
+      - -c
+      - >-
+        . /keys/supabase.env && . /keys/db.env &&
+        export ANON_KEY="$$SUPABASE_ANON_KEY" SERVICE_KEY="$$SUPABASE_SERVICE_ROLE_KEY"
+        AUTH_JWT_SECRET="$$JWT_SECRET" PGRST_JWT_SECRET="$$JWT_SECRET" DATABASE_URL &&
+        exec node dist/start/server.js
+    environment:
+      POSTGREST_URL: http://rest:3000
+      STORAGE_BACKEND: file
+      FILE_STORAGE_BACKEND_PATH: /var/lib/storage
+      FILE_SIZE_LIMIT: "52428800"
+      TENANT_ID: stub
+      REGION: stub
+      GLOBAL_S3_BUCKET: stub
+      ENABLE_IMAGE_TRANSFORMATION: "false"
+    depends_on:
+      db:
+        condition: service_healthy
+      keys:
+        condition: service_completed_successfully
+      rest:
+        condition: service_started
+    # 127.0.0.1, not localhost: storage listens on IPv4 only, and wget in the
+    # image may try localhost as ::1 first (the check then never passes).
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://127.0.0.1:5000/status"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    restart: unless-stopped
+
+  gateway:
+    image: caddy:2.8.4-alpine
+    # COSIGN_BIND is the address the port is published on: 127.0.0.1 (the
+    # default) lets only this machine in, which is enough for a browser here or
+    # a TLS proxy of your own on this machine. 0.0.0.0 publishes it on every
+    # IPv4 address of the machine: anyone on your network then reaches the app
+    # and the auth, data and storage APIs over plain HTTP (passwords and
+    # documents unencrypted). Keep 127.0.0.1 and put your own HTTPS reverse
+    # proxy on this machine in front, or open it only on a network you trust.
+    # With a proxy in front, read lib/clientIp.js: COSIGN_TRUSTED_PROXY_HOPS
+    # may need to change.
+    ports:
+      - "${COSIGN_BIND:-127.0.0.1}:${COSIGN_PORT:-3000}:3000"
+    volumes:
+      - ./docker/gateway/Caddyfile:/etc/caddy/Caddyfile:ro
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://127.0.0.1:2019/config/"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    restart: unless-stopped
+
+  app:
+    build: .
+    volumes:
+      - keys:/keys:ro
+      - settings:/app/.cosign
+    environment:
+      SUPABASE_URL: http://gateway:3000
+      # Blank: the browser reaches Supabase on the page's own origin.
+      PUBLIC_SUPABASE_URL: ""
+      # The site address (COSIGN_SITE_URL, see auth), read by the server when
+      # it runs: signing links, the invite's return address, links in mail.
+      # Blank when it is not set, which counts as not set, so the Site address
+      # saved at /setup applies, else the address the request came to. The
+      # browser never sees it: Next.js writes NEXT_PUBLIC_* values into the
+      # browser code at build time, and the image is built without one.
+      NEXT_PUBLIC_APP_URL: ${COSIGN_SITE_URL:-}
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+      gateway:
+        condition: service_started
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:3000/api/health').then((r) => process.exit(r.ok ? 0 : 1), () => process.exit(1))"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+    restart: unless-stopped
+
+volumes:
+  db-data:
+  storage-data:
+  keys:
+  settings:

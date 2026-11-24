@@ -1,0 +1,479 @@
+{
+  "meta": {
+    "title": "Cô Sign - AI 文件助手",
+    "description": "AI 助手，幫你睇明同填寫英文表格"
+  },
+  "nav": {
+    "features": "功能",
+    "login": "登入",
+    "signup": "開始使用",
+    "dashboard": "我嘅文件",
+    "logout": "登出",
+    "documents": "文件",
+    "settings": "設定"
+  },
+  "hero": {
+    "badge": "AI 表格副駕駛",
+    "title": "令每一張表格",
+    "titleHighlight": "都變得簡單又安心",
+    "subtitle": "Cô Sign 會逐欄解釋、翻譯難明嘅詞語，並一步步引導你，令你可以安心填好表格。",
+    "ctaSecondary": "睇下個概念",
+    "trustedBy": "同社區測試者及移民倡導者一齊打造"
+  },
+  "concept": {
+    "title": "概念",
+    "subtitle": "一個冷靜、雙語嘅表格副駕駛，將混亂變成清晰。",
+    "kicker": "個概念",
+    "heroTitle": "清清楚楚，唔使靠估",
+    "heroCopy": "我哋將文件理解同溫和引導結合，令每一欄都睇得明，就算張表格本身唔清楚都一樣。",
+    "guide": {
+      "title": "逐欄解釋",
+      "description": "喺每個輸入欄旁邊都有簡短、淺白嘅解釋。"
+    },
+    "translate": {
+      "title": "連上文下理一齊翻譯",
+      "description": "唔淨止係字面，而係用你嘅語言講出意思同意圖。"
+    },
+    "verify": {
+      "title": "及早發現錯誤",
+      "description": "喺遞交之前發現漏咗或者填得唔清楚嘅答案。"
+    },
+    "export": {
+      "title": "安心完成",
+      "description": "匯出乾淨、可以即刻遞交嘅文件。"
+    },
+    "clarity": {
+      "title": "清晰行先",
+      "description": "我哋去除含糊，令大家清清楚楚知道要填咩。"
+    },
+    "confidence": {
+      "title": "內建信心",
+      "description": "有引導嘅流程，減少出錯同猶豫。"
+    },
+    "momentum": {
+      "title": "一直推進到完成",
+      "description": "令進度睇得到，令表格真係填得完。"
+    }
+  },
+  "upload": {
+    "title": "上載你嘅文件",
+    "description": "上載你嘅表格",
+    "phoneHint": "㩒一下揀檔案 — 或者用手機影張相",
+    "or": "或者",
+    "browse": "瀏覽檔案",
+    "formats": "支援 PDF、PNG、JPG，最大 20MB",
+    "processing": "正在處理你嘅文件...",
+    "success": "文件上載成功！",
+    "error": "上載失敗。請再試一次。"
+  },
+  "features": {
+    "title": "Cô Sign 點樣幫到你",
+    "subtitle": "三個簡單步驟，睇明同填好任何英文表格",
+    "translate": {
+      "title": "即時翻譯",
+      "description": "每一欄都會自動翻譯成你嘅語言，並清楚解釋需要咩資料。"
+    },
+    "chat": {
+      "title": "有咩都可以問 Cô",
+      "description": "同我哋嘅 AI 助手傾偈，幫你睇明難解嘅詞語、要求，或者點樣答某啲問題。"
+    },
+    "fill": {
+      "title": "填寫同匯出",
+      "description": "喺引導下填好表格，然後將完成嘅文件匯出做 PDF，準備好遞交。"
+    }
+  },
+  "howItWorks": {
+    "title": "點樣運作",
+    "subtitle": "為真人填真表格而設計嘅簡單流程。",
+    "step1": {
+      "title": "了解上文下理",
+      "description": "我哋會了解表格類型同佢喺度問緊咩。"
+    },
+    "step2": {
+      "title": "逐欄引導",
+      "description": "每個輸入欄都會清楚翻譯同解釋。"
+    },
+    "step3": {
+      "title": "一齊完成",
+      "description": "用家可以安心填好表格，少啲出錯。"
+    }
+  },
+  "selfHosted": {
+    "title": "自行部署",
+    "body": "Cô Sign 係一個自行託管嘅應用程式，以 MIT 授權條款發佈：每個機構都喺自己嘅伺服器上面運行自己嘅副本。如果你負責運行呢個副本，請登入去設定同埋發送表格。",
+    "cta": "登入"
+  },
+  "attention": {
+    "punchline": "唔好再喺表格度靠估。幾分鐘就安心填好。",
+    "badges": {
+      "privacy": "私隱行先",
+      "encrypted": "加密儲存",
+      "community": "社區共建"
+    },
+    "demoTitle": "15 秒就睇到",
+    "demo": {
+      "step1": {
+        "title": "上載你嘅表格",
+        "description": "我哋即刻偵測到表格類型。"
+      },
+      "step2": {
+        "title": "得到清楚嘅引導",
+        "description": "每一欄都會翻譯同解釋。"
+      },
+      "step3": {
+        "title": "完成同匯出",
+        "description": "安心遞交，少啲出錯。"
+      }
+    }
+  },
+  "testimonials": {
+    "title": "獲數以千計用家信賴",
+    "subtitle": "睇下我哋嘅用家點講"
+  },
+  "cta": {
+    "title": "準備好睇明你嘅文件未？",
+    "subtitle": "加入數以千計信賴 Cô Sign 幫佢哋處理英文表格嘅用家。",
+    "button": "免費開始"
+  },
+  "footer": {
+    "description": "為每位客戶提供簡單、有引導嘅表格填寫。",
+    "tagline": "令每個人都用得到英文表格。",
+    "product": "產品",
+    "company": "公司",
+    "legal": "法律",
+    "links": {
+      "features": "功能",
+      "about": "關於我哋",
+      "contact": "聯絡",
+      "privacy": "私隱政策",
+      "terms": "服務條款",
+      "cookies": "Cookies 政策"
+    },
+    "copyright": "© Cô Sign 貢獻者 · MIT 授權條款"
+  },
+  "legalTemplate": {
+    "title": "呢個頁面係範本",
+    "body": "佢係隨 Cô Sign（一個自行託管嘅應用程式）一齊提供嘅。營運呢個網站嘅人必須用自己嘅文字取代佢。喺取代之前，佢並唔說明呢個網站點樣運作或者點樣處理你嘅資料。"
+  },
+  "dashboard": {
+    "title": "你嘅文件",
+    "welcome": "歡迎返嚟",
+    "upload": "上載新文件",
+    "empty": {
+      "title": "暫時未有文件",
+      "description": "上載你第一份文件嚟開始",
+      "cta": "上載文件"
+    },
+    "document": {
+      "uploaded": "已上載",
+      "fields": "個欄位偵測到",
+      "status": {
+        "processing": "處理中",
+        "ready": "準備好",
+        "error": "錯誤",
+        "uploaded": "已上載",
+        "processed": "已處理"
+      },
+      "actions": {
+        "view": "查看",
+        "delete": "刪除",
+        "download": "下載"
+      },
+      "downloadFailed": "無法下載呢份文件"
+    },
+    "filter": {
+      "all": "全部",
+      "recent": "最近",
+      "completed": "已完成"
+    },
+    "deleteConfirm": "刪除 {count} 份文件？",
+    "documentsDeleted": "已刪除 {count} 份文件",
+    "deleteFailed": "刪除文件失敗",
+    "unsupportedFileType": "只支援 PDF 同圖片檔案",
+    "fileTooLarge": "檔案必須細過 20MB",
+    "uploading": "正在上載文件...",
+    "uploadSuccess": "文件已上載！",
+    "uploadFailed": "上載失敗",
+    "documentDeleted": "文件已刪除",
+    "chooseLanguage": "揀你嘅語言",
+    "languageDescription": "揀將表格欄位翻譯成邊種語言。你隨時可以更改。",
+    "uploadingFile": "正在上載：{fileName}",
+    "dropToUpload": "放低嚟上載",
+    "selectAll": "全選",
+    "deleteSelected": "刪除（{count}）",
+    "searchPlaceholder": "搜尋文件...",
+    "noSearchResults": "冇文件符合你嘅搜尋",
+    "tryDifferentSearch": "試下另一個搜尋詞",
+    "languages": {
+      "en": "英文",
+      "vi": "越南文",
+      "es": "西班牙文"
+    },
+    "archived": "已歸檔",
+    "languageEnglishOnly": "（唔翻譯）",
+    "preparingWorkspace": "正在準備你嘅工作區…",
+    "uploadHint": "拖放或撳一下 — PDF、PNG 或 JPEG，最大 20MB"
+  },
+  "viewer": {
+    "fields": "表格欄位",
+    "chat": "同 Cô 傾偈",
+    "translation": "翻譯",
+    "explanation": "呢個係咩意思",
+    "example": "例子",
+    "fillIn": "你嘅答案",
+    "locked": "解鎖嚟睇晒所有欄位",
+    "export": "匯出文件",
+    "download": "下載原本文件",
+    "documentNotFound": "搵唔到文件",
+    "analyzingDocument": "正在用 AI 分析文件...",
+    "fieldsFound": "搵到 {count} 個欄位！",
+    "ocrFailed": "OCR 失敗：{error}",
+    "saveFieldFailed": "儲存欄位失敗",
+    "positionsSaved": "欄位位置已儲存！",
+    "reprocessingPositions": "正在重新處理欄位位置...",
+    "positionsUpdated": "已更新 {total} 個欄位位置中嘅 {updated} 個！",
+    "reprocessFailed": "重新處理失敗：{error}",
+    "exportSuccess": "PDF 已匯出！",
+    "exportFailed": "匯出 PDF 失敗",
+    "securityWarning": "為咗你嘅安全，請唔好喺呢個對話度分享敏感資料，例如社安號碼、信用卡號碼、密碼或者銀行戶口資料。",
+    "statusAnalyzing": "正在分析文件...",
+    "fieldsCompleted": "{total} 個欄位中已完成 {filled} 個",
+    "noFields": "冇偵測到欄位",
+    "processingStep0": "正在上載...",
+    "processingStep1": "正在收集上文下理...",
+    "processingStep2": "正在標出位置...",
+    "processingStep3": "正在加入解釋...",
+    "processingStep4": "正在翻譯...",
+    "processingMessage0": "正在收集資料...",
+    "processingMessage1": "正在搵出目的...",
+    "processingMessage2": "正在睇字裡行間...",
+    "processingMessage3": "正在請教高人...",
+    "processingMessage4": "正在解開個結...",
+    "processingMessage5": "正在破解謎團...",
+    "processingMessage6": "正在搞清楚晒...",
+    "processingMessage7": "正在連起各點...",
+    "processingMessage8": "正在一層層剝開...",
+    "processingMessage9": "正在好聲好氣問份文件...",
+    "processingMessage10": "正在教 AI 睇字...",
+    "processingMessage11": "正在數欄位...",
+    "processingMessage12": "就快搞掂...",
+    "processingMessage13": "再等多陣...",
+    "processingMessage14": "正在處理你嘅要求...",
+    "processingHint": "㩒 SPACE 玩隱藏嘅貪食蛇遊戲",
+    "funFact0": "當每一欄都用淺白語言解釋時，大家填表快到 3 倍。",
+    "funFact1": "清楚嘅翻譯可以減少重做，以及同辦公室、業主嘅來回往返。",
+    "funFact2": "自動填入嘅例子幫用家避開正式表格上常見嘅錯誤。",
+    "funFact3": "有引導嘅欄位解釋減少漏簽名同空白欄位。",
+    "funFact4": "智能抽取意味住少啲手動步驟，慳返多啲時間。",
+    "funFact5": "一致嘅格式令各方審核都快啲。",
+    "modeAuto": "自動",
+    "modeManual": "手動",
+    "fixPositions": "修正位置",
+    "extractionMethod": {
+      "nativeForm": "原生表格",
+      "textLayer": "文字層",
+      "aiDisabled": "AI 已停用",
+      "noFields": "冇欄位",
+      "vision": "AI 視覺",
+      "ready": "就緒"
+    },
+    "loadingDocument": "正在載入文件...",
+    "analyzingTitle": "正在分析文件",
+    "analyzingDescription": "AI 正在閱讀你嘅文件並抽取表格欄位。通常需要 10-20 秒。",
+    "noFieldsDetected": "冇偵測到欄位",
+    "noFieldsDescription": "呢份文件可能冇表格欄位，或者你可以試下再掃描一次。",
+    "scanFields": "掃描欄位",
+    "fieldLabel": "欄位 {number}",
+    "saving": "儲存緊…",
+    "askCoTooltip": "問 Co 關於呢個欄位",
+    "exporting": "正在匯出...",
+    "reconfigurePositions": "重新設定欄位位置",
+    "remaining": "剩 {count} 個",
+    "translatePromptTitle": "用其他語言睇呢份表格？",
+    "translatePromptBody": "我哋會翻譯欄位標籤同說明。英文仍然可用。",
+    "translatePromptSelect": "揀一種語言…",
+    "translatePromptCta": "翻譯",
+    "translatePromptSkip": "保持英文",
+    "analysisIncompleteTitle": "分析未完成",
+    "analysisIncompleteDescription": "處理大型或複雜文件時可能會出現呢種情況。請重試分析。",
+    "retryAnalysis": "重試分析",
+    "addTextField": "新增文字欄位",
+    "addSignatureField": "新增簽名欄位",
+    "addDateField": "新增日期欄位",
+    "manualTextFieldName": "文字欄位",
+    "manualSignatureFieldName": "簽名",
+    "manualDateFieldName": "日期",
+    "manualFieldAdded": "已新增欄位——你可以喺文件上調整佢嘅位置。",
+    "documentTab": "文件",
+    "toast": {
+      "documentNotFound": "搵唔到文件",
+      "analyzing": "正在用 AI 分析文件...",
+      "stillAnalyzing": "仲分析緊——呢份文件要多啲時間…",
+      "analysisComplete": "分析完成！",
+      "analysisFailedRetry": "分析失敗——你可以喺下面再試。",
+      "analysisSlow": "分析用咗比預期長嘅時間。請過幾分鐘再睇。",
+      "fieldsFound": "搵到 {count} 個欄位！",
+      "analysisFailed": "分析失敗：{error}",
+      "saveFieldFailed": "儲存欄位失敗",
+      "positionsSaved": "欄位位置已儲存！",
+      "reprocessing": "正在重新處理欄位位置...",
+      "positionsUpdated": "已更新 {updated}/{total} 個欄位位置！",
+      "reprocessFailed": "重新處理失敗：{error}",
+      "exportSuccess": "PDF 已匯出！",
+      "exportFailed": "匯出 PDF 失敗",
+      "chatFailed": "攞唔到回覆。請再試一次。",
+      "addFieldFailed": "加唔到欄位：{error}",
+      "customFieldsFailed": "儲存唔到自訂欄位：{error}",
+      "finalizing": "正在完善欄位詳情...",
+      "setupComplete": "設定完成！",
+      "enrichmentFailed": "設定已儲存，但補充詳情失敗"
+    }
+  },
+  "chat": {
+    "placeholder": "問 Cô 關於呢份文件...",
+    "send": "發送",
+    "greeting": "你好！我係 Cô，你嘅文件助手。我可以點樣幫你睇明呢張表格？",
+    "thinking": "諗緊...",
+    "errorMessage": "唔好意思，我攞唔到回應。請再試一次。",
+    "consentTitle": "畀 Cô 睇你嘅表格？",
+    "consentDescription": "為咗答你嘅問題，Cô 需要睇下你嘅表格。你嘅資料會保持私密，唔會儲存或者分享。",
+    "consentCheckbox": "好，Cô 可以睇我嘅表格嚟幫我",
+    "consentCancel": "暫時唔使",
+    "consentConfirm": "畀 Cô 幫手",
+    "securityWarning": "千祈唔好分享社安號碼、信用卡、密碼或者銀行戶口",
+    "securityWarningBanner": "唔好分享敏感資料（社安號碼、信用卡、密碼、銀行戶口）",
+    "askingAbout": "問緊：{fieldName}",
+    "privacyAlert": "⚠️ 私隱警告：睇嚟你可能分享咗個人資料。請唔好喺度分享敏感細節 — 呢個對話唔係安全保險箱。我哋係嚟幫你睇明你嘅文件，唔係收集你嘅資料。以下係令我哋擔心你所分享嘅嘢：{category}。你可以喺 {suggestion} 搵到呢啲資料。唔使同我哋分享！"
+  },
+  "setup": {
+    "title": "需要設定",
+    "yourRole": "你嘅角色",
+    "step1of3": "第 1 步，共 3 步",
+    "step2of3": "第 2 步，共 3 步",
+    "step3of3": "第 3 步，共 3 步",
+    "letsSetup": "嚟設定呢份文件",
+    "welcomeDescription": "呢份文件喺你填寫之前需要做啲初步設定。我哋會引導你完成。",
+    "whatWellDo": "我哋會做啲咩：",
+    "roleQuestion": "答一條關於你角色嘅快問題",
+    "dragFields": "將每個欄位拖去文件上正確嘅位置",
+    "fillInfo": "填寫你嘅資料",
+    "getStarted": "開始",
+    "roleQuestionTitle": "你喺呢份文件入面係咩角色？",
+    "roleDescription": "咁可以幫我哋只向你顯示相關嘅欄位。",
+    "skipRole": "略過呢條問題",
+    "welcomeMessage": "我哋會幫你喺呢份文件上定位 {count} 個欄位。將每個欄位拖去正確位置，然後填寫你嘅資料。",
+    "dragInstructions": "拖動欄位嚟喺文件上定位。用控制點調整大小。",
+    "hideSidebar": "隱藏側邊欄",
+    "showSidebar": "顯示側邊欄",
+    "previous": "上一個",
+    "fieldCounter": "第 {current} 個欄位，共 {total} 個",
+    "doneFillFields": "完成 — 填寫欄位",
+    "positionFields": "定位欄位",
+    "positionDescription": "拖動每個欄位框嚟蓋住文件上正確嘅範圍。",
+    "noPosition": "冇位置",
+    "currentField": "目前欄位（{current}/{total}）",
+    "positionHint": "位置提示：{hint}",
+    "returnToSetup": "返回設定",
+    "markReviewed": "標示為已檢閱",
+    "doneButton": "完成 — 填寫欄位",
+    "repositionFields": "調整欄位位置",
+    "positionInstructions": "拖動欄位嚟定位 • 準備好就㩒「完成」",
+    "welcome": {
+      "title": "歡迎嚟到設定",
+      "description": "嚟準備好你嘅文件。只需要一分鐘。"
+    },
+    "roles": {
+      "landlord": "業主",
+      "tenant": "租客",
+      "employer": "僱主",
+      "employee": "僱員",
+      "disclosing": "披露方",
+      "receiving": "接收方",
+      "buyer": "買家",
+      "seller": "賣家",
+      "client": "客戶／公司",
+      "contractor": "顧問／承包商"
+    },
+    "fieldTypes": {
+      "text": "文字",
+      "date": "日期",
+      "email": "電郵",
+      "tel": "電話",
+      "number": "數字",
+      "checkbox": "勾選框",
+      "signature": "簽名",
+      "address": "地址"
+    },
+    "fieldNamePlaceholder": "欄位名稱",
+    "searchFields": "搜尋欄位…",
+    "add": "新增",
+    "cancel": "取消"
+  },
+  "signature": {
+    "placeholder": "喺呢度畫你嘅簽名",
+    "clear": "清除",
+    "saved": "簽名已儲存"
+  },
+  "common": {
+    "loading": "正在載入...",
+    "error": "出咗啲問題",
+    "retry": "再試一次",
+    "cancel": "取消",
+    "save": "儲存",
+    "delete": "刪除",
+    "confirm": "確認",
+    "back": "返回",
+    "next": "下一步",
+    "close": "關閉",
+    "loadingDocument": "正在載入文件...",
+    "pageOf": "第 {current} 頁，共 {total} 頁"
+  },
+  "auth": {
+    "login": {
+      "title": "歡迎返嚟",
+      "subtitle": "登入嚟存取你嘅文件",
+      "google": "用 Google 繼續",
+      "or": "或者",
+      "email": "電郵地址",
+      "password": "密碼",
+      "submit": "登入",
+      "noAccount": "未有帳戶？",
+      "signup": "註冊",
+      "username": "用戶名",
+      "usernamePlaceholder": "輸入用戶名",
+      "passwordPlaceholder": "輸入密碼",
+      "invalidCredentials": "用戶名或者密碼唔啱",
+      "loginFailed": "憑證無效",
+      "forgotPassword": "唔記得密碼？"
+    },
+    "signup": {
+      "title": "建立你嘅帳戶",
+      "subtitle": "今日就開始睇明文件",
+      "hasAccount": "已經有帳戶？",
+      "login": "登入",
+      "submit": "建立帳戶",
+      "confirmSent": "就快完成喇！請檢查你嘅電郵，撳確認連結嚟啟動帳戶。",
+      "passwordHint": "至少 8 個字符",
+      "confirmPassword": "確認密碼",
+      "passwordMismatch": "兩次輸入嘅密碼唔一致"
+    },
+    "testingMode": "測試模式",
+    "terms": "條款",
+    "privacyPolicy": "私隱政策",
+    "forgot": {
+      "title": "重設密碼",
+      "subtitle": "輸入你嘅電郵，我哋會發送重設連結",
+      "submit": "發送重設連結",
+      "sent": "如果呢個電郵有帳戶，重設連結已經喺路上。",
+      "back": "返回登入"
+    },
+    "reset": {
+      "title": "設定新密碼",
+      "subtitle": "為你嘅帳戶揀一個新密碼",
+      "newPassword": "新密碼",
+      "submit": "更新密碼",
+      "success": "密碼已更新！",
+      "invalid": "重設連結無效或者已過期，請重新申請。"
+    }
+  }
+}

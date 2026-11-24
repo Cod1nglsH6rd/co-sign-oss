@@ -1,0 +1,14 @@
+# Second phase of the e2e job on a self-hosted runner (ci.yml), on top of
+# docker-compose.yml, compose.e2e.yml and compose.selfhosted.yml: the gateway
+# also answers on the stack's own network as cosign.test, the host of the
+# site address the stack is brought up again with
+# (COSIGN_SITE_URL=http://cosign.test:3000). The second phase's browser runs
+# in another container on that network, with its own network namespace, as
+# a second machine on a LAN would: it reaches the app only at that address,
+# and its own localhost is not the app. Still no port is published.
+services:
+  gateway:
+    networks:
+      default:
+        aliases:
+          - cosign.test

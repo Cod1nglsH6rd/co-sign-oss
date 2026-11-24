@@ -1,0 +1,479 @@
+{
+  "meta": {
+    "title": "Cô Sign - AI Document Assistant",
+    "description": "AI-powered assistant for understanding and filling out English forms"
+  },
+  "nav": {
+    "features": "Features",
+    "login": "Login",
+    "signup": "Get Started",
+    "dashboard": "Dashboard",
+    "logout": "Logout",
+    "documents": "Documents",
+    "settings": "Settings"
+  },
+  "hero": {
+    "badge": "AI Form Copilot",
+    "title": "Make Every Form",
+    "titleHighlight": "Feel Simple and Safe",
+    "subtitle": "Cô Sign explains each field, translates confusing terms, and guides people step by step so they can finish forms with confidence.",
+    "ctaSecondary": "See the Idea",
+    "trustedBy": "Built with community testers and immigrant advocates"
+  },
+  "concept": {
+    "title": "The Concept",
+    "subtitle": "A calm, bilingual copilot for forms that turns confusion into clarity.",
+    "kicker": "The Idea",
+    "heroTitle": "Clarity without the guesswork",
+    "heroCopy": "We pair document understanding with gentle guidance so every field makes sense, even when the form doesn't.",
+    "guide": {
+      "title": "Explain each field",
+      "description": "Short, plain-language explanations beside every input."
+    },
+    "translate": {
+      "title": "Translate with context",
+      "description": "Not just words, meaning and intent in your language."
+    },
+    "verify": {
+      "title": "Catch mistakes early",
+      "description": "Spot missing or confusing answers before submission."
+    },
+    "export": {
+      "title": "Finish with confidence",
+      "description": "Export clean, ready-to-submit documents."
+    },
+    "clarity": {
+      "title": "Clarity first",
+      "description": "We remove ambiguity so people know exactly what to enter."
+    },
+    "confidence": {
+      "title": "Confidence built in",
+      "description": "A guided flow that reduces errors and second-guessing."
+    },
+    "momentum": {
+      "title": "Momentum to completion",
+      "description": "Keep progress visible so forms actually get finished."
+    }
+  },
+  "upload": {
+    "title": "Upload Your Document",
+    "description": "Upload your form",
+    "phoneHint": "Click to choose a file — or take a photo with your phone",
+    "or": "or",
+    "browse": "Browse Files",
+    "formats": "Supports PDF, PNG, JPG up to 20MB",
+    "processing": "Processing your document...",
+    "success": "Document uploaded successfully!",
+    "error": "Upload failed. Please try again."
+  },
+  "features": {
+    "title": "How Cô Sign Helps You",
+    "subtitle": "Three simple steps to understand and complete any English form",
+    "translate": {
+      "title": "Instant Translation",
+      "description": "Every field is automatically translated into your language with clear explanations of what information is needed."
+    },
+    "chat": {
+      "title": "Ask Cô Anything",
+      "description": "Chat with our AI assistant to get help understanding confusing terms, requirements, or how to answer specific questions."
+    },
+    "fill": {
+      "title": "Fill & Export",
+      "description": "Fill out the form with guidance, then export your completed document as a PDF ready to submit."
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "A simple flow designed for real people filling real forms.",
+    "step1": {
+      "title": "Get context",
+      "description": "We understand the form type and what it’s asking."
+    },
+    "step2": {
+      "title": "Guide each field",
+      "description": "Every input is translated and explained clearly."
+    },
+    "step3": {
+      "title": "Finish together",
+      "description": "Users complete the form with confidence and fewer errors."
+    }
+  },
+  "selfHosted": {
+    "title": "Run it yourself",
+    "body": "Cô Sign is a self-hosted app, released under the MIT License: each organisation runs its own copy on its own server. If you run this copy, sign in to set it up and send forms.",
+    "cta": "Sign in"
+  },
+  "attention": {
+    "punchline": "Stop guessing on forms. Finish with confidence in minutes.",
+    "badges": {
+      "privacy": "Privacy-first",
+      "encrypted": "Encrypted storage",
+      "community": "Community-built"
+    },
+    "demoTitle": "See it in 15 seconds",
+    "demo": {
+      "step1": {
+        "title": "Upload your form",
+        "description": "We detect the form type instantly."
+      },
+      "step2": {
+        "title": "Get clear guidance",
+        "description": "Every field is translated and explained."
+      },
+      "step3": {
+        "title": "Finish and export",
+        "description": "Submit confidently with fewer errors."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Trusted by Thousands",
+    "subtitle": "See what our users say"
+  },
+  "cta": {
+    "title": "Ready to Understand Your Documents?",
+    "subtitle": "Join thousands of users who trust Cô Sign to help them navigate English forms.",
+    "button": "Get Started Free"
+  },
+  "footer": {
+    "description": "Simple, guided form filling for every customer.",
+    "tagline": "Making English forms accessible to everyone.",
+    "product": "Product",
+    "company": "Company",
+    "legal": "Legal",
+    "links": {
+      "features": "Features",
+      "about": "About Us",
+      "contact": "Contact",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookies Policy"
+    },
+    "copyright": "© Cô Sign contributors · MIT License"
+  },
+  "legalTemplate": {
+    "title": "This page is a template",
+    "body": "It came with Cô Sign, a self-hosted app. Whoever runs this site must replace it with their own text. Until they do, it does not describe how this site works or handles your data."
+  },
+  "dashboard": {
+    "title": "Your Documents",
+    "welcome": "Welcome back",
+    "upload": "Upload New",
+    "empty": {
+      "title": "No documents yet",
+      "description": "Upload your first document to get started",
+      "cta": "Upload Document"
+    },
+    "document": {
+      "uploaded": "Uploaded",
+      "fields": "fields detected",
+      "status": {
+        "processing": "Processing",
+        "ready": "Ready",
+        "error": "Error",
+        "uploaded": "Uploaded",
+        "processed": "Processed"
+      },
+      "actions": {
+        "view": "View",
+        "delete": "Delete",
+        "download": "Download"
+      },
+      "downloadFailed": "Could not download this document"
+    },
+    "filter": {
+      "all": "All",
+      "recent": "Recent",
+      "completed": "Completed"
+    },
+    "deleteConfirm": "Delete {count} document(s)?",
+    "documentsDeleted": "{count} documents deleted",
+    "deleteFailed": "Failed to delete documents",
+    "unsupportedFileType": "Only PDF and image files are supported",
+    "fileTooLarge": "File must be under 20MB",
+    "uploading": "Uploading document...",
+    "uploadSuccess": "Document uploaded!",
+    "uploadFailed": "Upload failed",
+    "documentDeleted": "Document deleted",
+    "chooseLanguage": "Choose Your Language",
+    "languageDescription": "Select which language to translate form fields into. You can change this anytime.",
+    "uploadingFile": "Uploading: {fileName}",
+    "dropToUpload": "Drop to upload",
+    "selectAll": "Select All",
+    "deleteSelected": "Delete ({count})",
+    "searchPlaceholder": "Search documents...",
+    "noSearchResults": "No documents match your search",
+    "tryDifferentSearch": "Try a different search term",
+    "languages": {
+      "en": "English",
+      "vi": "Vietnamese",
+      "es": "Spanish"
+    },
+    "archived": "Archived",
+    "languageEnglishOnly": "(no translation)",
+    "preparingWorkspace": "Preparing your workspace…",
+    "uploadHint": "Drag & drop or click — PDF, PNG, or JPEG up to 20MB"
+  },
+  "viewer": {
+    "fields": "Form Fields",
+    "chat": "Chat with Cô",
+    "translation": "Translation",
+    "explanation": "What this means",
+    "example": "Example",
+    "fillIn": "Your answer",
+    "locked": "Unlock to see all fields",
+    "export": "Export Document",
+    "download": "Download Original",
+    "documentNotFound": "Document not found",
+    "analyzingDocument": "Analyzing document with AI...",
+    "fieldsFound": "Found {count} fields!",
+    "ocrFailed": "OCR failed: {error}",
+    "saveFieldFailed": "Failed to save field",
+    "positionsSaved": "Field positions saved!",
+    "reprocessingPositions": "Re-processing field positions...",
+    "positionsUpdated": "Updated {updated} of {total} field positions!",
+    "reprocessFailed": "Reprocessing failed: {error}",
+    "exportSuccess": "PDF exported!",
+    "exportFailed": "Failed to export PDF",
+    "securityWarning": "For your security, please do NOT share sensitive information like SSN, credit card numbers, passwords, or bank account details in this chat.",
+    "statusAnalyzing": "Analyzing document...",
+    "fieldsCompleted": "{filled} of {total} fields completed",
+    "noFields": "No fields detected",
+    "processingStep0": "Uploading...",
+    "processingStep1": "Gathering context...",
+    "processingStep2": "Mapping it out...",
+    "processingStep3": "Adding explanations...",
+    "processingStep4": "Translating...",
+    "processingMessage0": "Gathering information...",
+    "processingMessage1": "Looking for purpose...",
+    "processingMessage2": "Reading between the lines...",
+    "processingMessage3": "Consulting the oracle...",
+    "processingMessage4": "Untangling the knots...",
+    "processingMessage5": "Decoding the mysteries...",
+    "processingMessage6": "Making sense of it all...",
+    "processingMessage7": "Connecting the dots...",
+    "processingMessage8": "Peeling back the layers...",
+    "processingMessage9": "Asking the document nicely...",
+    "processingMessage10": "Teaching AI to read...",
+    "processingMessage11": "Counting the fields...",
+    "processingMessage12": "Almost there...",
+    "processingMessage13": "Just a moment more...",
+    "processingMessage14": "Processing your request...",
+    "processingHint": "Press SPACE for the hidden Snake game",
+    "funFact0": "People finish forms up to 3x faster when each field is explained in plain language.",
+    "funFact1": "Clear translations cut rework and back-and-forth with offices and landlords.",
+    "funFact2": "Auto-filled examples help users avoid common mistakes on official forms.",
+    "funFact3": "Guided field explanations reduce missed signatures and empty fields.",
+    "funFact4": "Smart extraction means fewer manual steps and more time saved.",
+    "funFact5": "Consistent formatting makes reviews faster for everyone involved.",
+    "modeAuto": "Auto",
+    "modeManual": "Manual",
+    "fixPositions": "Fix Positions",
+    "extractionMethod": {
+      "nativeForm": "Native Form",
+      "textLayer": "Text Layer",
+      "aiDisabled": "AI Disabled",
+      "noFields": "No Fields",
+      "vision": "AI Vision",
+      "ready": "Ready"
+    },
+    "loadingDocument": "Loading document...",
+    "analyzingTitle": "Analyzing Document",
+    "analyzingDescription": "AI is reading your document and extracting form fields. This usually takes 10-20 seconds.",
+    "noFieldsDetected": "No Fields Detected",
+    "noFieldsDescription": "This document may not contain form fields, or you can try scanning again.",
+    "scanFields": "Scan for Fields",
+    "fieldLabel": "Field {number}",
+    "saving": "Saving…",
+    "askCoTooltip": "Ask Co about this field",
+    "exporting": "Exporting...",
+    "reconfigurePositions": "Reconfigure Field Positions",
+    "remaining": "{count} remaining",
+    "translatePromptTitle": "Read this form in another language?",
+    "translatePromptBody": "We will translate the field labels and explanations. English stays available.",
+    "translatePromptSelect": "Choose a language…",
+    "translatePromptCta": "Translate",
+    "translatePromptSkip": "Keep English",
+    "analysisIncompleteTitle": "Analysis didn’t finish",
+    "analysisIncompleteDescription": "This can happen with large or complex documents. Try analyzing it again.",
+    "retryAnalysis": "Retry analysis",
+    "addTextField": "Add text field",
+    "addSignatureField": "Add signature field",
+    "addDateField": "Add date field",
+    "manualTextFieldName": "Text field",
+    "manualSignatureFieldName": "Signature",
+    "manualDateFieldName": "Date",
+    "manualFieldAdded": "Field added — you can reposition its box on the document.",
+    "documentTab": "Document",
+    "toast": {
+      "documentNotFound": "Document not found",
+      "analyzing": "Analyzing document with AI...",
+      "stillAnalyzing": "Still analyzing — this document needs a little longer…",
+      "analysisComplete": "Analysis complete!",
+      "analysisFailedRetry": "Analysis failed — you can retry below.",
+      "analysisSlow": "Analysis is taking longer than expected. Please check back in a few minutes.",
+      "fieldsFound": "Found {count} fields!",
+      "analysisFailed": "Analysis failed: {error}",
+      "saveFieldFailed": "Failed to save field",
+      "positionsSaved": "Field positions saved!",
+      "reprocessing": "Re-processing field positions...",
+      "positionsUpdated": "Updated {updated}/{total} field positions!",
+      "reprocessFailed": "Reprocessing failed: {error}",
+      "exportSuccess": "PDF exported!",
+      "exportFailed": "Failed to export PDF",
+      "chatFailed": "Could not get a response. Please try again.",
+      "addFieldFailed": "Could not add field: {error}",
+      "customFieldsFailed": "Could not save custom field(s): {error}",
+      "finalizing": "Finalizing field details...",
+      "setupComplete": "Setup complete!",
+      "enrichmentFailed": "Setup saved, but enrichment failed"
+    }
+  },
+  "chat": {
+    "placeholder": "Ask Cô about this document...",
+    "send": "Send",
+    "greeting": "Hi! I'm Cô, your document assistant. How can I help you understand this form?",
+    "thinking": "Thinking...",
+    "errorMessage": "Sorry, I could not get a response. Please try again.",
+    "consentTitle": "Let Cô read your form?",
+    "consentDescription": "To answer your question, Cô needs to look at your form. Your information stays private and is never stored or shared.",
+    "consentCheckbox": "Yes, Cô can read my form to help me",
+    "consentCancel": "Not now",
+    "consentConfirm": "Let Cô help",
+    "securityWarning": "Never share SSN, credit card, passwords, or bank accounts",
+    "securityWarningBanner": "Do not share sensitive info (SSN, credit card, passwords, bank accounts)",
+    "askingAbout": "Asking about: {fieldName}",
+    "privacyAlert": "⚠️ PRIVACY ALERT: It looks like you may have shared personal information. Please don't share sensitive details here — this chat is not a secure vault. We're here to help you UNDERSTAND your paperwork, not collect your data. Here's what you shared that concerned us: {category}. You can find this info on {suggestion}. No need to share it with us!"
+  },
+  "setup": {
+    "title": "Setup Required",
+    "yourRole": "Your Role",
+    "step1of3": "Step 1 of 3",
+    "step2of3": "Step 2 of 3",
+    "step3of3": "Step 3 of 3",
+    "letsSetup": "Let's set up this document",
+    "welcomeDescription": "This document needs some initial setup before you can fill it out. We'll guide you through it.",
+    "whatWellDo": "What we'll do:",
+    "roleQuestion": "Answer a quick question about your role",
+    "dragFields": "Drag each field to the correct position on the document",
+    "fillInfo": "Fill in your information",
+    "getStarted": "Get Started",
+    "roleQuestionTitle": "What is your role in this document?",
+    "roleDescription": "This helps us show you only the relevant fields.",
+    "skipRole": "Skip this question",
+    "welcomeMessage": "We'll help you position {count} fields on this document. Drag each field to the correct position, then fill in your information.",
+    "dragInstructions": "Drag fields to position them on the document. Resize with handles.",
+    "hideSidebar": "Hide Sidebar",
+    "showSidebar": "Show Sidebar",
+    "previous": "Previous",
+    "fieldCounter": "Field {current} of {total}",
+    "doneFillFields": "Done — Fill Fields",
+    "positionFields": "Position Fields",
+    "positionDescription": "Drag each field box to cover the correct area on the document.",
+    "noPosition": "No position",
+    "currentField": "Current Field ({current}/{total})",
+    "positionHint": "Position hint: {hint}",
+    "returnToSetup": "Return to Setup",
+    "markReviewed": "Mark as Reviewed",
+    "doneButton": "Done — Fill Fields",
+    "repositionFields": "Adjust field positions",
+    "positionInstructions": "Drag fields to position them • Click \"Done\" when ready",
+    "welcome": {
+      "title": "Welcome to Setup",
+      "description": "Let's get your document ready. This will only take a minute."
+    },
+    "roles": {
+      "landlord": "Landlord",
+      "tenant": "Tenant",
+      "employer": "Employer",
+      "employee": "Employee",
+      "disclosing": "Disclosing Party",
+      "receiving": "Receiving Party",
+      "buyer": "Buyer",
+      "seller": "Seller",
+      "client": "Client/Company",
+      "contractor": "Consultant/Contractor"
+    },
+    "fieldTypes": {
+      "text": "Text",
+      "date": "Date",
+      "email": "Email",
+      "tel": "Phone",
+      "number": "Number",
+      "checkbox": "Checkbox",
+      "signature": "Signature",
+      "address": "Address"
+    },
+    "fieldNamePlaceholder": "Field name",
+    "searchFields": "Search fields…",
+    "add": "Add",
+    "cancel": "Cancel"
+  },
+  "signature": {
+    "placeholder": "Draw your signature here",
+    "clear": "Clear",
+    "saved": "Signature saved"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try Again",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "close": "Close",
+    "loadingDocument": "Loading document...",
+    "pageOf": "Page {current} of {total}"
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome back",
+      "subtitle": "Sign in to access your documents",
+      "google": "Continue with Google",
+      "or": "or",
+      "email": "Email address",
+      "password": "Password",
+      "submit": "Sign in",
+      "noAccount": "Don't have an account?",
+      "signup": "Sign up",
+      "username": "Username",
+      "usernamePlaceholder": "Enter username",
+      "passwordPlaceholder": "Enter password",
+      "invalidCredentials": "Invalid username or password",
+      "loginFailed": "Invalid credentials",
+      "forgotPassword": "Forgot password?"
+    },
+    "signup": {
+      "title": "Create your account",
+      "subtitle": "Start understanding documents today",
+      "hasAccount": "Already have an account?",
+      "login": "Sign in",
+      "submit": "Create account",
+      "confirmSent": "Almost done! Check your email and click the confirmation link to activate your account.",
+      "passwordHint": "At least 8 characters",
+      "confirmPassword": "Confirm password",
+      "passwordMismatch": "Passwords do not match"
+    },
+    "testingMode": "Testing Mode",
+    "terms": "Terms",
+    "privacyPolicy": "Privacy Policy",
+    "forgot": {
+      "title": "Reset your password",
+      "subtitle": "Enter your email and we'll send you a reset link",
+      "submit": "Send reset link",
+      "sent": "If an account exists for that email, a reset link is on its way.",
+      "back": "Back to sign in"
+    },
+    "reset": {
+      "title": "Set a new password",
+      "subtitle": "Choose a new password for your account",
+      "newPassword": "New password",
+      "submit": "Update password",
+      "success": "Password updated!",
+      "invalid": "This reset link is invalid or has expired. Please request a new one."
+    }
+  }
+}

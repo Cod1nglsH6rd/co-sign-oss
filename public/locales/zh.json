@@ -1,0 +1,479 @@
+{
+  "meta": {
+    "title": "Cô Sign - AI 文档助手",
+    "description": "由 AI 驱动的助手，帮助你理解并填写英文表格"
+  },
+  "nav": {
+    "features": "功能",
+    "login": "登录",
+    "signup": "立即开始",
+    "dashboard": "控制台",
+    "logout": "退出登录",
+    "documents": "文档",
+    "settings": "设置"
+  },
+  "hero": {
+    "badge": "AI 表格助手",
+    "title": "让每一份表格",
+    "titleHighlight": "都简单又安心",
+    "subtitle": "Cô Sign 会解释每一个字段，翻译难懂的术语，并一步步引导你，让你充满信心地完成表格。",
+    "ctaSecondary": "了解理念",
+    "trustedBy": "与社区测试者和移民倡导者共同打造"
+  },
+  "concept": {
+    "title": "理念",
+    "subtitle": "一位平和的双语表格助手，把困惑变为清晰。",
+    "kicker": "理念",
+    "heroTitle": "清晰明了，无需猜测",
+    "heroCopy": "我们将文档理解与温和的引导相结合，让每一个字段都清楚明白，即使表格本身并不清楚。",
+    "guide": {
+      "title": "解释每个字段",
+      "description": "在每个输入框旁提供简短、通俗易懂的说明。"
+    },
+    "translate": {
+      "title": "结合语境翻译",
+      "description": "不仅翻译文字，更传达含义和意图，用你的语言呈现。"
+    },
+    "verify": {
+      "title": "尽早发现错误",
+      "description": "在提交前发现遗漏或含糊的答案。"
+    },
+    "export": {
+      "title": "自信地完成",
+      "description": "导出整洁、可直接提交的文档。"
+    },
+    "clarity": {
+      "title": "清晰优先",
+      "description": "我们消除模糊，让你确切知道该填写什么。"
+    },
+    "confidence": {
+      "title": "内建信心",
+      "description": "引导式流程，减少错误和犹豫。"
+    },
+    "momentum": {
+      "title": "推动直至完成",
+      "description": "让进度清晰可见，确保表格真正完成。"
+    }
+  },
+  "upload": {
+    "title": "上传你的文档",
+    "description": "上传你的表格",
+    "phoneHint": "点击选择文件 — 或用手机拍照",
+    "or": "或",
+    "browse": "浏览文件",
+    "formats": "支持 PDF、PNG、JPG，最大 20MB",
+    "processing": "正在处理你的文档……",
+    "success": "文档上传成功！",
+    "error": "上传失败。请重试。"
+  },
+  "features": {
+    "title": "Cô Sign 如何帮助你",
+    "subtitle": "三个简单步骤，理解并完成任何英文表格",
+    "translate": {
+      "title": "即时翻译",
+      "description": "每个字段都会自动翻译成你的语言，并清楚说明需要填写哪些信息。"
+    },
+    "chat": {
+      "title": "向 Cô 提问",
+      "description": "与我们的 AI 助手聊天，帮助你理解难懂的术语、要求，或如何回答具体问题。"
+    },
+    "fill": {
+      "title": "填写并导出",
+      "description": "在引导下填写表格，然后将完成的文档导出为可提交的 PDF。"
+    }
+  },
+  "howItWorks": {
+    "title": "运作方式",
+    "subtitle": "为真实的人填写真实的表格而设计的简单流程。",
+    "step1": {
+      "title": "获取语境",
+      "description": "我们了解表格类型及其要求的内容。"
+    },
+    "step2": {
+      "title": "引导每个字段",
+      "description": "每个输入项都会被清楚地翻译和解释。"
+    },
+    "step3": {
+      "title": "共同完成",
+      "description": "用户充满信心地完成表格，错误更少。"
+    }
+  },
+  "selfHosted": {
+    "title": "自行部署",
+    "body": "Cô Sign 是一款自托管应用，以 MIT 许可证发布：每个组织都在自己的服务器上运行自己的副本。如果您负责运行此副本，请登录进行设置并发送表单。",
+    "cta": "登录"
+  },
+  "attention": {
+    "punchline": "别再对着表格猜来猜去。几分钟内自信地完成。",
+    "badges": {
+      "privacy": "隐私优先",
+      "encrypted": "加密存储",
+      "community": "社区共建"
+    },
+    "demoTitle": "15 秒看懂",
+    "demo": {
+      "step1": {
+        "title": "上传你的表格",
+        "description": "我们即时识别表格类型。"
+      },
+      "step2": {
+        "title": "获得清晰指引",
+        "description": "每个字段都会被翻译和解释。"
+      },
+      "step3": {
+        "title": "完成并导出",
+        "description": "自信提交，错误更少。"
+      }
+    }
+  },
+  "testimonials": {
+    "title": "数千用户的信赖之选",
+    "subtitle": "看看我们的用户怎么说"
+  },
+  "cta": {
+    "title": "准备好理解你的文档了吗？",
+    "subtitle": "加入数千名信赖 Cô Sign 的用户，让它帮你应对英文表格。",
+    "button": "免费开始"
+  },
+  "footer": {
+    "description": "为每一位客户提供简单、有引导的表格填写体验。",
+    "tagline": "让人人都能轻松看懂英文表格。",
+    "product": "产品",
+    "company": "公司",
+    "legal": "法律",
+    "links": {
+      "features": "功能",
+      "about": "关于我们",
+      "contact": "联系我们",
+      "privacy": "隐私政策",
+      "terms": "服务条款",
+      "cookies": "Cookie 政策"
+    },
+    "copyright": "© Cô Sign 贡献者 · MIT 许可证"
+  },
+  "legalTemplate": {
+    "title": "此页面是模板",
+    "body": "它随 Cô Sign（一款自托管应用）一起提供。运营本网站的人必须用自己的文本替换它。在替换之前，它并不说明本网站如何运作或如何处理您的数据。"
+  },
+  "dashboard": {
+    "title": "你的文档",
+    "welcome": "欢迎回来",
+    "upload": "上传新文档",
+    "empty": {
+      "title": "还没有文档",
+      "description": "上传你的第一份文档即可开始",
+      "cta": "上传文档"
+    },
+    "document": {
+      "uploaded": "已上传",
+      "fields": "个字段已识别",
+      "status": {
+        "processing": "处理中",
+        "ready": "就绪",
+        "error": "错误",
+        "uploaded": "已上传",
+        "processed": "已处理"
+      },
+      "actions": {
+        "view": "查看",
+        "delete": "删除",
+        "download": "下载"
+      },
+      "downloadFailed": "无法下载此文件"
+    },
+    "filter": {
+      "all": "全部",
+      "recent": "最近",
+      "completed": "已完成"
+    },
+    "deleteConfirm": "删除 {count} 份文档？",
+    "documentsDeleted": "已删除 {count} 份文档",
+    "deleteFailed": "删除文档失败",
+    "unsupportedFileType": "仅支持 PDF 和图片文件",
+    "fileTooLarge": "文件必须小于 20MB",
+    "uploading": "正在上传文档……",
+    "uploadSuccess": "文档已上传！",
+    "uploadFailed": "上传失败",
+    "documentDeleted": "文档已删除",
+    "chooseLanguage": "选择你的语言",
+    "languageDescription": "选择将表格字段翻译成哪种语言。你可以随时更改。",
+    "uploadingFile": "正在上传：{fileName}",
+    "dropToUpload": "拖放以上传",
+    "selectAll": "全选",
+    "deleteSelected": "删除（{count}）",
+    "searchPlaceholder": "搜索文档……",
+    "noSearchResults": "没有符合搜索条件的文档",
+    "tryDifferentSearch": "试试其他搜索关键词",
+    "languages": {
+      "en": "英语",
+      "vi": "越南语",
+      "es": "西班牙语"
+    },
+    "archived": "已归档",
+    "languageEnglishOnly": "（不翻译）",
+    "preparingWorkspace": "正在准备您的工作区…",
+    "uploadHint": "拖放或点击 — PDF、PNG 或 JPEG，最大 20MB"
+  },
+  "viewer": {
+    "fields": "表格字段",
+    "chat": "与 Cô 聊天",
+    "translation": "翻译",
+    "explanation": "这是什么意思",
+    "example": "示例",
+    "fillIn": "你的答案",
+    "locked": "解锁以查看所有字段",
+    "export": "导出文档",
+    "download": "下载原件",
+    "documentNotFound": "未找到文档",
+    "analyzingDocument": "正在用 AI 分析文档……",
+    "fieldsFound": "找到 {count} 个字段！",
+    "ocrFailed": "OCR 失败：{error}",
+    "saveFieldFailed": "保存字段失败",
+    "positionsSaved": "字段位置已保存！",
+    "reprocessingPositions": "正在重新处理字段位置……",
+    "positionsUpdated": "已更新 {total} 个字段位置中的 {updated} 个！",
+    "reprocessFailed": "重新处理失败：{error}",
+    "exportSuccess": "PDF 已导出！",
+    "exportFailed": "导出 PDF 失败",
+    "securityWarning": "为了你的安全，请勿在此聊天中分享敏感信息，例如社会安全号（SSN）、信用卡号、密码或银行账户详情。",
+    "statusAnalyzing": "正在分析文档……",
+    "fieldsCompleted": "已完成 {total} 个字段中的 {filled} 个",
+    "noFields": "未检测到字段",
+    "processingStep0": "正在上传……",
+    "processingStep1": "正在收集语境……",
+    "processingStep2": "正在梳理布局……",
+    "processingStep3": "正在添加说明……",
+    "processingStep4": "正在翻译……",
+    "processingMessage0": "正在收集信息……",
+    "processingMessage1": "正在寻找用途……",
+    "processingMessage2": "正在揣摩言外之意……",
+    "processingMessage3": "正在请教高人……",
+    "processingMessage4": "正在解开难题……",
+    "processingMessage5": "正在破解谜团……",
+    "processingMessage6": "正在理清头绪……",
+    "processingMessage7": "正在串联线索……",
+    "processingMessage8": "正在层层剖析……",
+    "processingMessage9": "正在礼貌地询问文档……",
+    "processingMessage10": "正在教 AI 阅读……",
+    "processingMessage11": "正在清点字段……",
+    "processingMessage12": "马上就好……",
+    "processingMessage13": "再稍等片刻……",
+    "processingMessage14": "正在处理你的请求……",
+    "processingHint": "按空格键开启隐藏的贪吃蛇游戏",
+    "funFact0": "当每个字段都用通俗语言解释时，人们填写表格的速度最多可快 3 倍。",
+    "funFact1": "清晰的翻译减少了与办事处和房东之间反复返工和来回沟通。",
+    "funFact2": "自动填写的示例帮助用户避免在正式表格上常犯的错误。",
+    "funFact3": "有引导的字段说明减少了漏签和空白字段。",
+    "funFact4": "智能提取意味着更少的手动步骤和更多节省下来的时间。",
+    "funFact5": "一致的格式让所有相关人员的审阅更快。",
+    "modeAuto": "自动",
+    "modeManual": "手动",
+    "fixPositions": "修正位置",
+    "extractionMethod": {
+      "nativeForm": "原生表格",
+      "textLayer": "文本层",
+      "aiDisabled": "AI 已禁用",
+      "noFields": "无字段",
+      "vision": "AI 视觉",
+      "ready": "就绪"
+    },
+    "loadingDocument": "正在加载文档……",
+    "analyzingTitle": "正在分析文档",
+    "analyzingDescription": "AI 正在阅读你的文档并提取表格字段。通常需要 10-20 秒。",
+    "noFieldsDetected": "未检测到字段",
+    "noFieldsDescription": "此文档可能不包含表格字段，或者你可以尝试重新扫描。",
+    "scanFields": "扫描字段",
+    "fieldLabel": "字段 {number}",
+    "saving": "保存中…",
+    "askCoTooltip": "就此字段询问 Cô",
+    "exporting": "正在导出……",
+    "reconfigurePositions": "重新配置字段位置",
+    "remaining": "剩余 {count} 个",
+    "translatePromptTitle": "用其他语言阅读此表格？",
+    "translatePromptBody": "我们将翻译字段标签和说明。英文仍然可用。",
+    "translatePromptSelect": "选择一种语言…",
+    "translatePromptCta": "翻译",
+    "translatePromptSkip": "保持英文",
+    "analysisIncompleteTitle": "分析未完成",
+    "analysisIncompleteDescription": "处理大型或复杂文档时可能会出现这种情况。请重试分析。",
+    "retryAnalysis": "重试分析",
+    "addTextField": "添加文本字段",
+    "addSignatureField": "添加签名字段",
+    "addDateField": "添加日期字段",
+    "manualTextFieldName": "文本字段",
+    "manualSignatureFieldName": "签名",
+    "manualDateFieldName": "日期",
+    "manualFieldAdded": "已添加字段——您可以在文档上调整它的位置。",
+    "documentTab": "文档",
+    "toast": {
+      "documentNotFound": "未找到文档",
+      "analyzing": "正在使用 AI 分析文档...",
+      "stillAnalyzing": "仍在分析——此文档需要更长一点时间…",
+      "analysisComplete": "分析完成！",
+      "analysisFailedRetry": "分析失败——您可以在下方重试。",
+      "analysisSlow": "分析时间比预期长。请几分钟后再查看。",
+      "fieldsFound": "找到 {count} 个字段！",
+      "analysisFailed": "分析失败：{error}",
+      "saveFieldFailed": "保存字段失败",
+      "positionsSaved": "字段位置已保存！",
+      "reprocessing": "正在重新处理字段位置...",
+      "positionsUpdated": "已更新 {updated}/{total} 个字段位置！",
+      "reprocessFailed": "重新处理失败：{error}",
+      "exportSuccess": "PDF 已导出！",
+      "exportFailed": "导出 PDF 失败",
+      "chatFailed": "无法获取回复。请重试。",
+      "addFieldFailed": "无法添加字段：{error}",
+      "customFieldsFailed": "无法保存自定义字段：{error}",
+      "finalizing": "正在完善字段详情...",
+      "setupComplete": "设置完成！",
+      "enrichmentFailed": "设置已保存，但补充详情失败"
+    }
+  },
+  "chat": {
+    "placeholder": "就这份文档向 Cô 提问……",
+    "send": "发送",
+    "greeting": "你好！我是 Cô，你的文档助手。我能怎样帮你理解这份表格呢？",
+    "thinking": "正在思考……",
+    "errorMessage": "抱歉，我无法获得回复。请重试。",
+    "consentTitle": "让 Cô 阅读你的表格吗？",
+    "consentDescription": "为了回答你的问题，Cô 需要查看你的表格。你的信息将始终保密，绝不会被存储或分享。",
+    "consentCheckbox": "好的，Cô 可以阅读我的表格来帮助我",
+    "consentCancel": "暂时不用",
+    "consentConfirm": "让 Cô 帮忙",
+    "securityWarning": "切勿分享社会安全号（SSN）、信用卡、密码或银行账户",
+    "securityWarningBanner": "请勿分享敏感信息（社会安全号、信用卡、密码、银行账户）",
+    "askingAbout": "正在询问：{fieldName}",
+    "privacyAlert": "⚠️ 隐私警告：看起来你可能分享了个人信息。请不要在这里分享敏感细节 —— 此聊天并非安全保险库。我们是来帮你理解文件的，而不是收集你的数据。以下是让我们担心的你所分享的内容：{category}。你可以在 {suggestion} 上找到这些信息。无需分享给我们！"
+  },
+  "setup": {
+    "title": "需要设置",
+    "yourRole": "你的角色",
+    "step1of3": "第 1 步，共 3 步",
+    "step2of3": "第 2 步，共 3 步",
+    "step3of3": "第 3 步，共 3 步",
+    "letsSetup": "我们来设置这份文档",
+    "welcomeDescription": "在你填写之前，这份文档需要一些初始设置。我们会引导你完成。",
+    "whatWellDo": "我们将要做的：",
+    "roleQuestion": "回答一个关于你角色的简短问题",
+    "dragFields": "将每个字段拖到文档上的正确位置",
+    "fillInfo": "填写你的信息",
+    "getStarted": "开始",
+    "roleQuestionTitle": "你在这份文档中的角色是什么？",
+    "roleDescription": "这有助于我们只向你显示相关的字段。",
+    "skipRole": "跳过此问题",
+    "welcomeMessage": "我们将帮你在这份文档上定位 {count} 个字段。将每个字段拖到正确的位置，然后填写你的信息。",
+    "dragInstructions": "拖动字段以将它们定位到文档上。用手柄调整大小。",
+    "hideSidebar": "隐藏侧边栏",
+    "showSidebar": "显示侧边栏",
+    "previous": "上一步",
+    "fieldCounter": "字段 {current}，共 {total} 个",
+    "doneFillFields": "完成 — 填写字段",
+    "positionFields": "定位字段",
+    "positionDescription": "拖动每个字段框以覆盖文档上的正确区域。",
+    "noPosition": "无位置",
+    "currentField": "当前字段（{current}/{total}）",
+    "positionHint": "位置提示：{hint}",
+    "returnToSetup": "返回设置",
+    "markReviewed": "标记为已检查",
+    "doneButton": "完成 — 填写字段",
+    "repositionFields": "调整字段位置",
+    "positionInstructions": "拖动字段以定位它们 • 完成后点击\"完成\"",
+    "welcome": {
+      "title": "欢迎来到设置",
+      "description": "我们来准备好你的文档。这只需一分钟。"
+    },
+    "roles": {
+      "landlord": "房东",
+      "tenant": "租户",
+      "employer": "雇主",
+      "employee": "雇员",
+      "disclosing": "披露方",
+      "receiving": "接收方",
+      "buyer": "买方",
+      "seller": "卖方",
+      "client": "客户/公司",
+      "contractor": "顾问/承包商"
+    },
+    "fieldTypes": {
+      "text": "文本",
+      "date": "日期",
+      "email": "电子邮件",
+      "tel": "电话",
+      "number": "数字",
+      "checkbox": "复选框",
+      "signature": "签名",
+      "address": "地址"
+    },
+    "fieldNamePlaceholder": "字段名称",
+    "searchFields": "搜索字段…",
+    "add": "添加",
+    "cancel": "取消"
+  },
+  "signature": {
+    "placeholder": "在此处绘制你的签名",
+    "clear": "清除",
+    "saved": "签名已保存"
+  },
+  "common": {
+    "loading": "正在加载……",
+    "error": "出了点问题",
+    "retry": "重试",
+    "cancel": "取消",
+    "save": "保存",
+    "delete": "删除",
+    "confirm": "确认",
+    "back": "返回",
+    "next": "下一步",
+    "close": "关闭",
+    "loadingDocument": "正在加载文档……",
+    "pageOf": "第 {current} 页，共 {total} 页"
+  },
+  "auth": {
+    "login": {
+      "title": "欢迎回来",
+      "subtitle": "登录以访问你的文档",
+      "google": "使用 Google 继续",
+      "or": "或",
+      "email": "电子邮箱地址",
+      "password": "密码",
+      "submit": "登录",
+      "noAccount": "还没有账户？",
+      "signup": "注册",
+      "username": "用户名",
+      "usernamePlaceholder": "输入用户名",
+      "passwordPlaceholder": "输入密码",
+      "invalidCredentials": "用户名或密码无效",
+      "loginFailed": "凭据无效",
+      "forgotPassword": "忘记密码？"
+    },
+    "signup": {
+      "title": "创建你的账户",
+      "subtitle": "今天就开始理解文档",
+      "hasAccount": "已经有账户了？",
+      "login": "登录",
+      "submit": "创建账户",
+      "confirmSent": "快完成了！请查收邮件并点击确认链接以激活账户。",
+      "passwordHint": "至少 8 个字符",
+      "confirmPassword": "确认密码",
+      "passwordMismatch": "两次输入的密码不一致"
+    },
+    "testingMode": "测试模式",
+    "terms": "条款",
+    "privacyPolicy": "隐私政策",
+    "forgot": {
+      "title": "重置密码",
+      "subtitle": "输入您的邮箱，我们将发送重置链接",
+      "submit": "发送重置链接",
+      "sent": "如果该邮箱已注册，重置链接正在发送中。",
+      "back": "返回登录"
+    },
+    "reset": {
+      "title": "设置新密码",
+      "subtitle": "为您的账户选择新密码",
+      "newPassword": "新密码",
+      "submit": "更新密码",
+      "success": "密码已更新！",
+      "invalid": "重置链接无效或已过期，请重新申请。"
+    }
+  }
+}

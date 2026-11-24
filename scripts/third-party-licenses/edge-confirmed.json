@@ -1,0 +1,20 @@
+{
+  "mupdf@1.27.0": {
+    "license": "AGPL-3.0-or-later",
+    "source": "https://registry.npmjs.org/mupdf/1.27.0",
+    "checked": "2026-11-21",
+    "how": "The npm registry's license field for this version."
+  },
+  "pdfjs-dist@4.0.379": {
+    "license": "Apache-2.0",
+    "source": "https://registry.npmjs.org/pdfjs-dist/4.0.379",
+    "checked": "2026-11-21",
+    "how": "The npm registry's license field for this version."
+  },
+  "Deno std@0.224.0": {
+    "license": "MIT",
+    "source": "https://deno.land/std@0.224.0/LICENSE",
+    "checked": "2026-11-21",
+    "how": "The LICENSE file of this version: the MIT License, copyright the Deno authors."
+  }
+}

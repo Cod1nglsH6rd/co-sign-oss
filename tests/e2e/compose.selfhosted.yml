@@ -1,0 +1,10 @@
+# Self-hosted runner only (ci.yml, e2e job), on top of docker-compose.yml and
+# compose.e2e.yml: the gateway publishes no port on the runner's machine.
+# The test's container joins the gateway's network namespace instead and opens
+# http://localhost:3000 there: the same address as on GitHub's runners, where
+# the test runs on the host against the published port 3000. So no port on the
+# shared CI machine is taken, nothing else there can collide with it, and the
+# auth service's default addresses (http://localhost:3000/...) stay right.
+services:
+  gateway:
+    ports: !reset []

@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "pdf-lib": "https://esm.sh/pdf-lib@1.17.1",
+    "pdfjs-dist": "https://esm.sh/pdfjs-dist@4.0.379/legacy/build/pdf.mjs?external=canvas"
+  }
+}

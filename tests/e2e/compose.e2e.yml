@@ -1,0 +1,6 @@
+# End-to-end override: docker compose -f docker-compose.yml -f tests/e2e/compose.e2e.yml
+# Only change: the app reads fields with the stub OCR, so no AI key is needed.
+services:
+  app:
+    environment:
+      OCR_PROVIDER: stub

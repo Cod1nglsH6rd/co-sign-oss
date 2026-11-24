@@ -1,0 +1,33 @@
+# The Docker stack's one public port. The app and the local Supabase APIs
+# share it, so the browser reaches auth, data and storage at the same address
+# as the app. Postgres and the inner services publish no ports: only this
+# gateway is reached from outside, and it has no route to the database.
+# TLS and public domains are not set up here.
+
+{
+	auto_https off
+}
+
+:3000 {
+	# Above the app's upload limits: 20MB in the dashboard and the 25mb body
+	# limit on the upload API routes.
+	request_body {
+		max_size 50MB
+	}
+
+	handle_path /auth/v1/* {
+		reverse_proxy auth:9999
+	}
+
+	handle_path /rest/v1/* {
+		reverse_proxy rest:3000
+	}
+
+	handle_path /storage/v1/* {
+		reverse_proxy storage:5000
+	}
+
+	handle {
+		reverse_proxy app:3000
+	}
+}
