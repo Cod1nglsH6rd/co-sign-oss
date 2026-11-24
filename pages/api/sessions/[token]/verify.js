@@ -94,7 +94,8 @@ async function countAttempt(supabase, session) {
       .from('fill_sessions')
       .update({
         verification_attempts: attempts + 1,
-        last_verify_attempt_at: new Date().toISOString(),
+        // Date.now(), the clock the back-off check reads, so both use one clock.
+        last_verify_attempt_at: new Date(Date.now()).toISOString(),
       })
       .eq('id', session.id);
     update = seen === null || seen === undefined
@@ -231,7 +232,7 @@ export default async function handler(req, res) {
     const { token: verificationToken } = generateSessionToken();
     const verificationHash = hashToken(verificationToken);
 
-    const verifiedAt = new Date().toISOString();
+    const verifiedAt = new Date(Date.now()).toISOString();
     let { error: updateError } = await supabase
       .from('fill_sessions')
       .update({
